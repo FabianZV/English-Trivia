@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,13 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 11
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -54,7 +53,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 10
+    serializedVersion: 12
     m_Resolution: 2
     m_BakeResolution: 40
     m_AtlasSize: 1024
@@ -62,13 +61,11 @@ LightmapSettings:
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
     m_Padding: 2
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -76,26 +73,34 @@ LightmapSettings:
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
     m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
     m_PVRFilterTypeDirect: 0
     m_PVRFilterTypeIndirect: 0
     m_PVRFilterTypeAO: 0
-    m_PVRFilteringMode: 1
+    m_PVREnvironmentMIS: 0
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
-    m_PVRFilteringGaussRadiusIndirect: 5
-    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringGaussRadiusIndirect: 1
+    m_PVRFilteringGaussRadiusAO: 1
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ShowResolutionOverlay: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_LightingSettings: {fileID: 768342526}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_BuildSettings:
-    serializedVersion: 2
+    serializedVersion: 3
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
@@ -108,7 +113,9 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualTileSize: 0
     tileSize: 256
-    accuratePlacement: 0
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
@@ -140,9 +147,9 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1246214455}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -158,12 +165,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 89295481}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.08001069, g: 0.2504128, b: 0.5849056, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -216,9 +225,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 177462680}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -235,7 +245,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 177462680}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_FirstSelected: {fileID: 0}
@@ -248,12 +258,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 177462680}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &187199301
 GameObject:
@@ -282,9 +293,9 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1714516503}
-  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -301,7 +312,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c8cd619bd667cd54799c5185d14112b8, type: 3}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: c8cd619bd667cd54799c5185d14112b8, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.658
   m_Pitch: 1
@@ -415,9 +427,9 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1339588533}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -433,18 +445,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 392457407}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -492,9 +506,9 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1714516503}
-  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -511,7 +525,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4c33b554cc5d009489d6f94716617b09, type: 3}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 4c33b554cc5d009489d6f94716617b09, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.328
   m_Pitch: 1
@@ -638,9 +653,9 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1665103125}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -656,18 +671,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 548600085}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -715,9 +732,9 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1714516503}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -733,22 +750,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 674629000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.71733713, g: 0.949644, b: 0.9811321, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
+    m_FontSize: 46
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 46
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -793,15 +812,15 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1067032195}
   m_Father: {fileID: 1714516503}
-  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000013351, y: -394}
-  m_SizeDelta: {x: 180, y: 40}
+  m_AnchoredPosition: {x: -841, y: -295}
+  m_SizeDelta: {x: 200, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &752319393
 MonoBehaviour:
@@ -812,11 +831,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 752319391}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -826,17 +846,20 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 752319394}
@@ -844,6 +867,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2080022342}
+        m_TargetAssemblyTypeName: 
         m_MethodName: CambiarScenaClick
         m_Mode: 5
         m_Arguments:
@@ -863,12 +887,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 752319391}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21266466, g: 0.48333278, b: 0.764151, a: 1}
+  m_Color: {r: 0.4537647, g: 0.51726186, b: 0.9339623, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -881,6 +907,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &752319395
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -889,6 +916,73 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 752319391}
   m_CullTransparentMesh: 0
+--- !u!850595691 &768342526
+LightingSettings:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Settings.lighting
+  serializedVersion: 10
+  m_EnableBakedLightmaps: 0
+  m_EnableRealtimeLightmaps: 0
+  m_RealtimeEnvironmentLighting: 1
+  m_BounceScale: 1
+  m_AlbedoBoost: 1
+  m_IndirectOutputScale: 1
+  m_UsingShadowmask: 1
+  m_BakeBackend: 1
+  m_LightmapMaxSize: 1024
+  m_LightmapSizeFixed: 0
+  m_UseMipmapLimits: 1
+  m_BakeResolution: 40
+  m_Padding: 2
+  m_LightmapCompression: 3
+  m_LightmapPackingMode: 1
+  m_LightmapPackingMethod: 0
+  m_XAtlasPackingAttempts: 16384
+  m_XAtlasBruteForce: 0
+  m_XAtlasBlockAlign: 0
+  m_XAtlasRepackUnderutilizedLightmaps: 1
+  m_AO: 0
+  m_AOMaxDistance: 1
+  m_CompAOExponent: 1
+  m_CompAOExponentDirect: 0
+  m_ExtractAO: 0
+  m_MixedBakeMode: 2
+  m_LightmapsBakeMode: 1
+  m_FilterMode: 1
+  m_LightmapParameters: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+  m_ExportTrainingData: 0
+  m_EnableWorkerProcessBaking: 1
+  m_TrainingDataDestination: TrainingData
+  m_RealtimeResolution: 2
+  m_ForceWhiteAlbedo: 0
+  m_ForceUpdates: 0
+  m_PVRCulling: 1
+  m_PVRSampling: 1
+  m_PVRDirectSampleCount: 32
+  m_PVRSampleCount: 512
+  m_PVREnvironmentSampleCount: 512
+  m_PVREnvironmentReferencePointCount: 2048
+  m_LightProbeSampleCountMultiplier: 4
+  m_PVRBounces: 2
+  m_PVRMinBounces: 2
+  m_PVREnvironmentImportanceSampling: 0
+  m_PVRFilteringMode: 2
+  m_PVRDenoiserTypeDirect: 0
+  m_PVRDenoiserTypeIndirect: 0
+  m_PVRDenoiserTypeAO: 0
+  m_PVRFilterTypeDirect: 0
+  m_PVRFilterTypeIndirect: 0
+  m_PVRFilterTypeAO: 0
+  m_PVRFilteringGaussRadiusDirect: 1
+  m_PVRFilteringGaussRadiusIndirect: 1
+  m_PVRFilteringGaussRadiusAO: 1
+  m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+  m_PVRFilteringAtrousPositionSigmaIndirect: 2
+  m_PVRFilteringAtrousPositionSigmaAO: 1
+  m_RespectSceneVisibilityWhenBakingGI: 0
 --- !u!1 &826819905
 GameObject:
   m_ObjectHideFlags: 0
@@ -917,9 +1011,9 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1169377159}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -935,12 +1029,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 826819905}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.53626734, g: 0.9716981, b: 0.58776987, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -995,15 +1091,15 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1270774987}
   m_Father: {fileID: 1714516503}
-  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 225.00006, y: -8}
-  m_SizeDelta: {x: 350, y: 60}
+  m_AnchoredPosition: {x: 317, y: -8}
+  m_SizeDelta: {x: 500, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &952718360
 MonoBehaviour:
@@ -1014,11 +1110,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 952718358}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1028,17 +1125,20 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 952718361}
@@ -1046,6 +1146,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2080022344}
+        m_TargetAssemblyTypeName: 
         m_MethodName: Respuesta
         m_Mode: 3
         m_Arguments:
@@ -1057,6 +1158,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1012822860}
+        m_TargetAssemblyTypeName: 
         m_MethodName: PlaySound
         m_Mode: 1
         m_Arguments:
@@ -1076,12 +1178,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 952718358}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.48235294, g: 0.7254902, b: 0.9529412, a: 1}
+  m_Color: {r: 0.5518868, g: 0.6278657, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1094,6 +1198,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &952718362
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1130,9 +1235,9 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1714516503}
-  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1162,7 +1267,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 34ba4b79823459543b94d9af49db700c, type: 3}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 34ba4b79823459543b94d9af49db700c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.205
   m_Pitch: 1
@@ -1276,11 +1382,11 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2019416496}
   - {fileID: 1128848571}
   m_Father: {fileID: 1714516503}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1343,9 +1449,9 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 752319392}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1361,12 +1467,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1067032194}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3207547, g: 0.048051223, b: 0.037824843, a: 1}
+  m_Color: {r: 0.21503703, g: 0.1975792, b: 0.3773585, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1420,14 +1528,14 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1019441942}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 546.2, y: 27.8}
-  m_SizeDelta: {x: 405.02, y: 30}
+  m_AnchoredPosition: {x: 569, y: -120}
+  m_SizeDelta: {x: 600, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1128848572
 MonoBehaviour:
@@ -1438,18 +1546,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1128848570}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 32
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1497,12 +1607,12 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1194811609}
   - {fileID: 1246214455}
   - {fileID: 826819906}
   m_Father: {fileID: 1714516503}
-  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1518,12 +1628,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1169377158}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.00244749, g: 0.042363796, b: 0.08627451, a: 0.8392157}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1536,6 +1648,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1169377161
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1572,9 +1685,9 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1169377159}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1590,16 +1703,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1194811608}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2ee0e7edc9d86284d822d6c767ad2608, type: 3}
+  m_Sprite: {fileID: -6244671086107463151, guid: 5a72dae76a5be044c844d404479e779b,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1608,6 +1724,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1194811611
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1654,10 +1771,19 @@ Camera:
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
-  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -1691,12 +1817,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1212897593}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1246214454
 GameObject:
@@ -1727,10 +1854,10 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 89295482}
   m_Father: {fileID: 1169377159}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1746,11 +1873,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1246214454}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1760,17 +1888,20 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1246214457}
@@ -1778,6 +1909,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2080022345}
+        m_TargetAssemblyTypeName: 
         m_MethodName: Continuar
         m_Mode: 1
         m_Arguments:
@@ -1789,6 +1921,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 394873760}
+        m_TargetAssemblyTypeName: 
         m_MethodName: PlaySound
         m_Mode: 1
         m_Arguments:
@@ -1808,12 +1941,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1246214454}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.062077243, g: 0.73668253, b: 0.8773585, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1826,6 +1961,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1246214458
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1862,9 +1998,9 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 952718359}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1880,18 +2016,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1270774986}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1940,15 +2078,15 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 392457408}
   m_Father: {fileID: 1714516503}
-  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 224.99997, y: -104.99999}
-  m_SizeDelta: {x: 350, y: 60}
+  m_AnchoredPosition: {x: 315, y: -133}
+  m_SizeDelta: {x: 500, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1339588534
 MonoBehaviour:
@@ -1959,11 +2097,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1339588532}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1973,17 +2112,20 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1339588535}
@@ -1991,6 +2133,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2080022344}
+        m_TargetAssemblyTypeName: 
         m_MethodName: Respuesta
         m_Mode: 3
         m_Arguments:
@@ -2002,6 +2145,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1012822860}
+        m_TargetAssemblyTypeName: 
         m_MethodName: PlaySound
         m_Mode: 1
         m_Arguments:
@@ -2021,12 +2165,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1339588532}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.48235294, g: 0.7254902, b: 0.9529412, a: 1}
+  m_Color: {r: 0.5294118, g: 0.6039216, b: 0.9607844, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2039,6 +2185,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1339588536
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2075,9 +2222,9 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1980788812}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2093,18 +2240,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1482403050}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2153,15 +2302,15 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 548600086}
   m_Father: {fileID: 1714516503}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -223, y: -105}
-  m_SizeDelta: {x: 350, y: 60}
+  m_AnchoredPosition: {x: -223, y: -133}
+  m_SizeDelta: {x: 500, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1665103126
 MonoBehaviour:
@@ -2172,11 +2321,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1665103124}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -2186,17 +2336,20 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1665103127}
@@ -2204,6 +2357,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2080022344}
+        m_TargetAssemblyTypeName: 
         m_MethodName: Respuesta
         m_Mode: 3
         m_Arguments:
@@ -2215,6 +2369,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1012822860}
+        m_TargetAssemblyTypeName: 
         m_MethodName: PlaySound
         m_Mode: 1
         m_Arguments:
@@ -2234,12 +2389,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1665103124}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.48235294, g: 0.7254902, b: 0.9529412, a: 1}
+  m_Color: {r: 0.50980395, g: 0.5803922, b: 0.9215687, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2252,6 +2409,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1665103128
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2288,9 +2446,9 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 19.2, y: 9, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1714516503}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2306,16 +2464,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1707016880}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 18cdb7d70ef057b47a4f7b31a792bca5, type: 3}
+  m_Sprite: {fileID: -6470460504253458178, guid: 72295ded774c64b46843b675eb92a937,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2324,6 +2485,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1707016883
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2360,7 +2522,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1714516499}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
@@ -2377,7 +2539,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1714516499}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_UiScaleMode: 1
@@ -2390,6 +2552,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &1714516502
 Canvas:
   m_ObjectHideFlags: 0
@@ -2407,7 +2570,9 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -2421,6 +2586,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1707016881}
   - {fileID: 1019441942}
@@ -2435,7 +2601,6 @@ RectTransform:
   - {fileID: 187199302}
   - {fileID: 1012822859}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2471,15 +2636,15 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1482403051}
   m_Father: {fileID: 1714516503}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -223, y: -8}
-  m_SizeDelta: {x: 350, y: 60}
+  m_SizeDelta: {x: 500, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1980788813
 MonoBehaviour:
@@ -2490,11 +2655,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1980788811}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -2504,17 +2670,20 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
+    m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1980788814}
@@ -2522,6 +2691,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2080022344}
+        m_TargetAssemblyTypeName: 
         m_MethodName: Respuesta
         m_Mode: 3
         m_Arguments:
@@ -2533,6 +2703,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1012822860}
+        m_TargetAssemblyTypeName: 
         m_MethodName: PlaySound
         m_Mode: 1
         m_Arguments:
@@ -2552,12 +2723,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1980788811}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4809096, g: 0.7240526, b: 0.9528302, a: 1}
+  m_Color: {r: 0.5294118, g: 0.6039216, b: 0.9607844, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2570,6 +2743,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1980788815
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2606,13 +2780,13 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1019441942}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -322.8, y: 50}
+  m_AnchoredPosition: {x: -311, y: -53}
   m_SizeDelta: {x: 226.8, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2019416497
@@ -2624,18 +2798,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 2019416495}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.36078432, g: 0.52156866, b: 0.73333335, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 12
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2646,7 +2822,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Tiempo m\xE1ximo:120 segundos"
+  m_Text: "Tiempo m\xE1ximo:360 segundos"
 --- !u!222 &2019416498
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2693,12 +2869,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080022341}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1153.6705, y: 446.1864, z: -11.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2080022344
 MonoBehaviour:
@@ -2730,7 +2907,8 @@ MonoBehaviour:
         a su influencia en las mareas. Se encuentra a una distancia media de aproximadamente
         384,400 kil\xF3metros de nuestro planeta y es el quinto sat\xE9lite m\xE1s
         grande del Sistema Solar. La Luna tiene un di\xE1metro de 3,476 kil\xF3metros,
-        lo que equivale a aproximadamente una cuarta parte del di\xE1metro de la Tierra."
+        lo que equivale a aproximadamente una cuarta parte del di\xE1metro de la
+        Tierra."
       enunciado: "\xBFC\xF3mo se llama el sat\xE9lite natural de la Tierra?"
       respuestas:
       - texto: Venus
@@ -2757,10 +2935,10 @@ MonoBehaviour:
       - texto: Neptuno
       - texto: "J\xFApiter"
       respuestaCorrecta: 3
-    - informacionComplementaria: "La V\xEDa L\xE1ctea es la galaxia en la que se encuentra
-        nuestro sistema solar, incluyendo la Tierra. Es una gigantesca agrupaci\xF3n
-        de estrellas, planetas y nubes de gas con forma de espiral barrada. Su di\xE1metro
-        es de aproximadamente 200,000 a\xF1os luz."
+    - informacionComplementaria: "La V\xEDa L\xE1ctea es la galaxia en la que se
+        encuentra nuestro sistema solar, incluyendo la Tierra. Es una gigantesca
+        agrupaci\xF3n de estrellas, planetas y nubes de gas con forma de espiral
+        barrada. Su di\xE1metro es de aproximadamente 200,000 a\xF1os luz."
       enunciado: "\xBFQu\xE9 es la V\xEDa L\xE1ctea?"
       respuestas:
       - texto: Un cometa
@@ -2770,10 +2948,10 @@ MonoBehaviour:
       respuestaCorrecta: 2
   - nombreDificultad: "F\xE1cil"
     preguntas:
-    - informacionComplementaria: "El primer hombre en viajar al espacio fue Yuri Gagarin,
-        un cosmonauta sovi\xE9tico. El 12 de abril de 1961, Gagarin orbit\xF3 la Tierra
-        a bordo de la nave espacial Vostok 1. Este hist\xF3rico vuelo dur\xF3 108
-        minutos y marc\xF3 el inicio de la era de los vuelos espaciales tripulados."
+    - informacionComplementaria: "El primer hombre en viajar al espacio fue Yuri
+        Gagarin, un cosmonauta sovi\xE9tico. El 12 de abril de 1961, Gagarin orbit\xF3
+        la Tierra a bordo de la nave espacial Vostok 1. Este hist\xF3rico vuelo dur\xF3
+        108 minutos y marc\xF3 el inicio de la era de los vuelos espaciales tripulados."
       enunciado: "\xBFQui\xE9n fue el primer hombre en viajar al espacio?"
       respuestas:
       - texto: Yuri Gagarin
@@ -2786,9 +2964,9 @@ MonoBehaviour:
         3,474.8 km, lo que la convierte en el quinto sat\xE9lite m\xE1s grande del
         sistema solar, su gravedad es aproximadamente 1/6 de la gravedad en la tierra
         y pasa por diferentes fases (nueva, creciente, llena, menguante) debido a
-        su posici\xF3n relativa con la Tierra y el Sol. Adem\xE1s, la Luna tiene una
-        gran influencia en la Tierra, como en las mareas, y ha sido un objeto de fascinaci\xF3n
-        cultural y cient\xEDfica desde la antig\xFCedad."
+        su posici\xF3n relativa con la Tierra y el Sol. Adem\xE1s, la Luna tiene
+        una gran influencia en la Tierra, como en las mareas, y ha sido un objeto
+        de fascinaci\xF3n cultural y cient\xEDfica desde la antig\xFCedad."
       enunciado: "\xBFQu\xE9 es la Luna?"
       respuestas:
       - texto: Un planeta enano
@@ -2798,24 +2976,25 @@ MonoBehaviour:
       respuestaCorrecta: 2
     - informacionComplementaria: "El sistema solar est\xE1 compuesto por ocho planetas
         principales que orbitan alrededor del Sol. Mercurio, el m\xE1s cercano al
-        Sol, es un planeta peque\xF1o y rocoso con temperaturas extremas. Venus, el
-        segundo planeta, tiene una atm\xF3sfera densa y t\xF3xica, y es el planeta
+        Sol, es un planeta peque\xF1o y rocoso con temperaturas extremas. Venus,
+        el segundo planeta, tiene una atm\xF3sfera densa y t\xF3xica, y es el planeta
         m\xE1s caliente del sistema solar. La Tierra, nuestro hogar, es el tercer
         planeta y el \xFAnico conocido que alberga vida, gracias a su atm\xF3sfera
-        rica en ox\xEDgeno y su abundancia de agua l\xEDquida.  Marte, el cuarto planeta,
-        es conocido como el \u201Cplaneta rojo\u201D y ha sido objeto de muchas misiones
-        de exploraci\xF3n debido a su potencial para haber albergado vida en el pasado.
-        J\xFApiter, el quinto planeta, es el m\xE1s grande del sistema solar y tiene
-        una atm\xF3sfera turbulenta con enormes tormentas, incluida la Gran Mancha
-        Roja. Saturno, el sexto planeta, es famoso por sus impresionantes anillos.
-        \ Urano, el s\xE9ptimo planeta, es un gigante helado con una atm\xF3sfera
-        compuesta principalmente de hidr\xF3geno, helio y metano, lo que le da su
-        distintivo color azul verdoso. Neptuno, el octavo planeta, es similar a Urano
-        en composici\xF3n y tambi\xE9n es conocido por sus intensas tormentas y vientos.
-        \ Aunque Plut\xF3n fue reclasificado como un planeta enano en 2006, sigue
-        siendo un objeto de gran inter\xE9s en el estudio del sistema solar. Este
-        peque\xF1o y helado mundo se encuentra en el cintur\xF3n de Kuiper, una regi\xF3n
-        llena de cuerpos helados y restos de la formaci\xF3n del sistema solar."
+        rica en ox\xEDgeno y su abundancia de agua l\xEDquida.  Marte, el cuarto
+        planeta, es conocido como el \u201Cplaneta rojo\u201D y ha sido objeto de
+        muchas misiones de exploraci\xF3n debido a su potencial para haber albergado
+        vida en el pasado. J\xFApiter, el quinto planeta, es el m\xE1s grande del
+        sistema solar y tiene una atm\xF3sfera turbulenta con enormes tormentas,
+        incluida la Gran Mancha Roja. Saturno, el sexto planeta, es famoso por sus
+        impresionantes anillos.  Urano, el s\xE9ptimo planeta, es un gigante helado
+        con una atm\xF3sfera compuesta principalmente de hidr\xF3geno, helio y metano,
+        lo que le da su distintivo color azul verdoso. Neptuno, el octavo planeta,
+        es similar a Urano en composici\xF3n y tambi\xE9n es conocido por sus intensas
+        tormentas y vientos.  Aunque Plut\xF3n fue reclasificado como un planeta
+        enano en 2006, sigue siendo un objeto de gran inter\xE9s en el estudio del
+        sistema solar. Este peque\xF1o y helado mundo se encuentra en el cintur\xF3n
+        de Kuiper, una regi\xF3n llena de cuerpos helados y restos de la formaci\xF3n
+        del sistema solar."
       enunciado: "\xBFCu\xE1ntos planetas hay en el sistema solar?"
       respuestas:
       - texto: 7
@@ -2840,8 +3019,8 @@ MonoBehaviour:
         un d\xEDa m\xE1s largo que su a\xF1o. Esto se debe a que su per\xEDodo de
         rotaci\xF3n sobre su propio eje es extremadamente lento, tomando aproximadamente
         243 d\xEDas terrestres para completar una sola rotaci\xF3n. En contraste,
-        su a\xF1o, es decir, el tiempo que tarda en dar una vuelta alrededor del Sol,
-        es de aproximadamente 225 d\xEDas terrestres."
+        su a\xF1o, es decir, el tiempo que tarda en dar una vuelta alrededor del
+        Sol, es de aproximadamente 225 d\xEDas terrestres."
       enunciado: "\xBFQu\xE9 planeta tiene un d\xEDa m\xE1s largo que su a\xF1o?"
       respuestas:
       - texto: "J\xFApiter"
@@ -2853,8 +3032,8 @@ MonoBehaviour:
     preguntas:
     - informacionComplementaria: "La velocidad de la luz en el vac\xEDo es aproximadamente
         299,792,458 metros por segundo, lo que equivale a unos 300,000 kil\xF3metros
-        por segundo. Esta velocidad es una constante fundamental en la f\xEDsica y
-        es crucial para muchas teor\xEDas y ecuaciones, como la famosa ecuaci\xF3n
+        por segundo. Esta velocidad es una constante fundamental en la f\xEDsica
+        y es crucial para muchas teor\xEDas y ecuaciones, como la famosa ecuaci\xF3n
         de Einstein, (E = mc^2), donde (c) representa la velocidad de la luz."
       enunciado: "\xBFCu\xE1l es la velocidad aproximada de la luz en el vac\xEDo?"
       respuestas:
@@ -2863,18 +3042,18 @@ MonoBehaviour:
       - texto: "150,000 kil\xF3metros por segundo"
       - texto: "300,000 kil\xF3metros por segundo"
       respuestaCorrecta: 3
-    - informacionComplementaria: "Las nebulosas son enormes nubes de gas y polvo en
-        el espacio, que a menudo tienen colores llamativos y formas variadas. Estas
-        estructuras c\xF3smicas pueden ser lugares donde nacen nuevas estrellas o
-        restos de estrellas que han explotado.  Existen varios tipos de nebulosas:
-        \ Nebulosas de emisi\xF3n: Emiten luz propia debido a la radiaci\xF3n ultravioleta
+    - informacionComplementaria: "Las nebulosas son enormes nubes de gas y polvo
+        en el espacio, que a menudo tienen colores llamativos y formas variadas.
+        Estas estructuras c\xF3smicas pueden ser lugares donde nacen nuevas estrellas
+        o restos de estrellas que han explotado.  Existen varios tipos de nebulosas: 
+        Nebulosas de emisi\xF3n: Emiten luz propia debido a la radiaci\xF3n ultravioleta
         de estrellas cercanas que ioniza el gas en la nebulosa. Nebulosas de reflexi\xF3n:
         Reflejan la luz de estrellas cercanas y suelen aparecer en tonos azulados.
         Nebulosas oscuras: No emiten ni reflejan luz, y se ven como manchas oscuras
         contra el fondo estrellado. Nebulosas planetarias: Formadas por las capas
-        exteriores expulsadas de estrellas moribundas, a menudo tienen formas de anillo
-        o burbuja. Un ejemplo famoso es la Nebulosa de Ori\xF3n, visible a simple
-        vista desde la Tierra y un lugar activo de formaci\xF3n estelar."
+        exteriores expulsadas de estrellas moribundas, a menudo tienen formas de
+        anillo o burbuja. Un ejemplo famoso es la Nebulosa de Ori\xF3n, visible a
+        simple vista desde la Tierra y un lugar activo de formaci\xF3n estelar."
       enunciado: "\xBFQu\xE9 son las nebulosas?"
       respuestas:
       - texto: "Galaxias en formaci\xF3n"
@@ -2882,19 +3061,19 @@ MonoBehaviour:
       - texto: Estrellas moribundas
       - texto: Planetas gaseosos
       respuestaCorrecta: 1
-    - informacionComplementaria: "El prop\xF3sito principal del programa Voyager de
-        la NASA es explorar los planetas exteriores del sistema solar y m\xE1s all\xE1.
-        Las sondas gemelas Voyager 1 y Voyager 2 fueron lanzadas en 1977 con la misi\xF3n
-        de estudiar J\xFApiter y Saturno, y posteriormente Urano y Neptuno.  Estas
-        sondas han proporcionado datos valiosos sobre estos planetas y sus lunas,
-        y han realizado descubrimientos significativos, como la detecci\xF3n de volcanes
-        activos en Io, una luna de J\xFApiter. Despu\xE9s de completar sus misiones
-        planetarias, ambas sondas continuaron su viaje hacia el espacio interestelar,
-        convirti\xE9ndose en las primeras naves en alcanzar esta regi\xF3n.  Adem\xE1s
-        de sus objetivos cient\xEDficos, las sondas Voyager llevan discos de oro con
-        sonidos e im\xE1genes de la Tierra, destinados a comunicar la existencia de
-        vida en nuestro planeta a cualquier forma de vida extraterrestre que pueda
-        encontrarlas."
+    - informacionComplementaria: "El prop\xF3sito principal del programa Voyager
+        de la NASA es explorar los planetas exteriores del sistema solar y m\xE1s
+        all\xE1. Las sondas gemelas Voyager 1 y Voyager 2 fueron lanzadas en 1977
+        con la misi\xF3n de estudiar J\xFApiter y Saturno, y posteriormente Urano
+        y Neptuno.  Estas sondas han proporcionado datos valiosos sobre estos planetas
+        y sus lunas, y han realizado descubrimientos significativos, como la detecci\xF3n
+        de volcanes activos en Io, una luna de J\xFApiter. Despu\xE9s de completar
+        sus misiones planetarias, ambas sondas continuaron su viaje hacia el espacio
+        interestelar, convirti\xE9ndose en las primeras naves en alcanzar esta regi\xF3n. 
+        Adem\xE1s de sus objetivos cient\xEDficos, las sondas Voyager llevan discos
+        de oro con sonidos e im\xE1genes de la Tierra, destinados a comunicar la
+        existencia de vida en nuestro planeta a cualquier forma de vida extraterrestre
+        que pueda encontrarlas."
       enunciado: "\xBFCu\xE1l es el prop\xF3sito principal del programa Voyager de
         la NASA?"
       respuestas:
@@ -2915,8 +3094,8 @@ MonoBehaviour:
       - texto: Horizonte de eventos
       respuestaCorrecta: 3
     - informacionComplementaria: "El planeta m\xE1s cercano a la Tierra es Venus.
-        Debido a sus \xF3rbitas, Venus y la Tierra se acercan m\xE1s entre s\xED que
-        cualquier otro par de planetas en el sistema solar."
+        Debido a sus \xF3rbitas, Venus y la Tierra se acercan m\xE1s entre s\xED
+        que cualquier otro par de planetas en el sistema solar."
       enunciado: "\xBFCu\xE1l es el planeta m\xE1s cercano a la Tierra?"
       respuestas:
       - texto: Marte
@@ -2926,8 +3105,8 @@ MonoBehaviour:
       respuestaCorrecta: 1
   - nombreDificultad: "Dif\xEDcil"
     preguntas:
-    - informacionComplementaria: "Los p\xFAlsares son estrellas de neutrones que giran
-        r\xE1pidamente y emiten pulsos regulares de radiaci\xF3n electromagn\xE9tica.
+    - informacionComplementaria: "Los p\xFAlsares son estrellas de neutrones que
+        giran r\xE1pidamente y emiten pulsos regulares de radiaci\xF3n electromagn\xE9tica.
         Se forman a partir de estrellas masivas que, al agotar su combustible nuclear,
         explotan como supernovas. El n\xFAcleo de estas estrellas colapsa bajo su
         propia gravedad, creando una estrella de neutrones extremadamente densa."
@@ -2945,9 +3124,9 @@ MonoBehaviour:
         simples, la constante de Hubble nos dice cu\xE1n r\xE1pido se est\xE1 expandiendo
         el universo. Se expresa en kil\xF3metros por segundo por megap\xE1rsec (km/s/Mpc),
         donde un megap\xE1rsec equivale a unos 3.26 millones de a\xF1os luz,  Por
-        ejemplo, un valor t\xEDpico de la constante de Hubble es alrededor de 70 km/s/Mpc,
-        lo que significa que por cada megap\xE1rsec de distancia, una galaxia se aleja
-        de nosotros a 70 kil\xF3metros por segundo."
+        ejemplo, un valor t\xEDpico de la constante de Hubble es alrededor de 70
+        km/s/Mpc, lo que significa que por cada megap\xE1rsec de distancia, una galaxia
+        se aleja de nosotros a 70 kil\xF3metros por segundo."
       enunciado: "\xBFQu\xE9 es la constante de Hubble?"
       respuestas:
       - texto: Una medida de la densidad de la materia en el universo
@@ -2993,10 +3172,10 @@ MonoBehaviour:
     - informacionComplementaria: "El fen\xF3meno astron\xF3mico que se produce cuando
         una estrella masiva explota al final de su vida se llama supernova. Una supernova
         es una explosi\xF3n estelar extremadamente poderosa que ocurre cuando una
-        estrella masiva agota su combustible nuclear y su n\xFAcleo colapsa bajo su
-        propia gravedad. Este colapso genera una onda de choque que expulsa las capas
-        exteriores de la estrella al espacio, liberando una cantidad colosal de energ\xEDa
-        y brillando m\xE1s que toda una galaxia por un breve per\xEDodo."
+        estrella masiva agota su combustible nuclear y su n\xFAcleo colapsa bajo
+        su propia gravedad. Este colapso genera una onda de choque que expulsa las
+        capas exteriores de la estrella al espacio, liberando una cantidad colosal
+        de energ\xEDa y brillando m\xE1s que toda una galaxia por un breve per\xEDodo."
       enunciado: "\xBFQu\xE9 fen\xF3meno astron\xF3mico se produce cuando una estrella
         masiva explota al final de su vida?"
       respuestas:
@@ -3008,9 +3187,9 @@ MonoBehaviour:
   - nombreDificultad: "Muy dif\xEDcil"
     preguntas:
     - informacionComplementaria: "La primera misi\xF3n espacial en aterrizar en un
-        cometa fue la misi\xF3n Rosetta de la Agencia Espacial Europea (ESA). El m\xF3dulo
-        de aterrizaje Philae de la sonda Rosetta aterriz\xF3 en el cometa 67P/Churyumov-Gerasimenko
-        el 12 de noviembre de 2014."
+        cometa fue la misi\xF3n Rosetta de la Agencia Espacial Europea (ESA). El
+        m\xF3dulo de aterrizaje Philae de la sonda Rosetta aterriz\xF3 en el cometa
+        67P/Churyumov-Gerasimenko el 12 de noviembre de 2014."
       enunciado: "\xBFQu\xE9 misi\xF3n espacial fue la primera en aterrizar en un
         cometa?"
       respuestas:
@@ -3022,8 +3201,8 @@ MonoBehaviour:
     - informacionComplementaria: "El telescopio espacial que ha proporcionado im\xE1genes
         detalladas del universo desde 1990 es el Telescopio Espacial Hubble. Este
         observatorio espacial ha revolucionado la astronom\xEDa con sus impresionantes
-        im\xE1genes y descubrimientos, permiti\xE9ndonos ver planetas, estrellas y
-        galaxias con un detalle sin precedentes."
+        im\xE1genes y descubrimientos, permiti\xE9ndonos ver planetas, estrellas
+        y galaxias con un detalle sin precedentes."
       enunciado: "\xBFCu\xE1l es el nombre del telescopio espacial que ha proporcionado
         im\xE1genes detalladas del universo desde 1990?"
       respuestas:
@@ -3033,9 +3212,9 @@ MonoBehaviour:
       - texto: Chandra
       respuestaCorrecta: 1
     - informacionComplementaria: "El primer objeto interestelar detectado en nuestro
-        sistema solar se llama 'Oumuamua. Fue descubierto en octubre de 2017 por el
-        telescopio Pan-STARRS1 en Haw\xE1i. Su nombre significa \u201Cmensajero de
-        lejos que llega primero\u201D en hawaiano. Oumuamua tiene una forma extremadamente
+        sistema solar se llama 'Oumuamua. Fue descubierto en octubre de 2017 por
+        el telescopio Pan-STARRS1 en Haw\xE1i. Su nombre significa \u201Cmensajero
+        de lejos que llega primero\u201D en hawaiano. Oumuamua tiene una forma extremadamente
         alargada, con estimaciones que sugieren que podr\xEDa ser hasta diez veces
         m\xE1s largo que ancho. Su tama\xF1o se estima entre 100 y 1,000 metros de
         largo y entre 35 y 167 metros de ancho."
@@ -3050,9 +3229,9 @@ MonoBehaviour:
     - informacionComplementaria: "La primera misi\xF3n espacial en aterrizar en el
         lado oculto de la Luna fue la Chang\u2019e 4 de la Administraci\xF3n Espacial
         Nacional China (CNSA). Esta sonda logr\xF3 este hito hist\xF3rico el 3 de
-        enero de 2019, alunizando en el cr\xE1ter Von K\xE1rm\xE1n. Chang\u2019e 4
-        est\xE1 compuesta por un aterrizador y un rover llamado Yutu-2, que han estado
-        explorando y estudiando esta regi\xF3n inexplorada de la Luna."
+        enero de 2019, alunizando en el cr\xE1ter Von K\xE1rm\xE1n. Chang\u2019e
+        4 est\xE1 compuesta por un aterrizador y un rover llamado Yutu-2, que han
+        estado explorando y estudiando esta regi\xF3n inexplorada de la Luna."
       enunciado: "\xBFQu\xE9 misi\xF3n espacial fue la primera en aterrizar en el
         lado oculto de la Luna?"
       respuestas:
@@ -3064,8 +3243,8 @@ MonoBehaviour:
     - informacionComplementaria: "El agujero negro supermasivo en el centro de la
         V\xEDa L\xE1ctea se llama Sagittarius A*. Este objeto masivo se encuentra
         a unos 25,000 a\xF1os luz de la Tierra y tiene una masa de aproximadamente
-        4 millones de veces la del Sol. Sagittarius A* se encuentra en el centro de
-        nuestra galaxia, la V\xEDa L\xE1ctea, cerca de la constelaci\xF3n de Sagitario.
+        4 millones de veces la del Sol. Sagittarius A* se encuentra en el centro
+        de nuestra galaxia, la V\xEDa L\xE1ctea, cerca de la constelaci\xF3n de Sagitario.
         Fue descubierto en 1974 por Bruce Balick y Robert Brown."
       enunciado: "\xBFCu\xE1l es el nombre del agujero negro supermasivo en el centro
         de la V\xEDa L\xE1ctea?"
@@ -3104,3 +3283,11 @@ MonoBehaviour:
   panelInformacionComplementaria: {fileID: 1169377158}
   informacionComplementaria: {fileID: 826819907}
   game: {fileID: 2080022344}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 1212897596}
+  - {fileID: 2080022343}
+  - {fileID: 1714516503}
+  - {fileID: 177462683}

@@ -11,7 +11,7 @@ namespace Assets.Scripts
 {
      public class TiempoMaximo : MonoBehaviour
     {
-        private float TiempoRestante = 300f; // 5 minutos de tiempo
+        private float TiempoRestante = 360f; // 6 minutos de tiempo
         public Text txt_Tiempo; // Referencia al objeto de texto en la UI
 
         void Update()
