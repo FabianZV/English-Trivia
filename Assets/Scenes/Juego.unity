@@ -738,8 +738,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 100.9}
-  m_SizeDelta: {x: 1385.2, y: 80.3}
+  m_AnchoredPosition: {x: 0.000068665, y: 122}
+  m_SizeDelta: {x: 1549.368, y: 80.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &674629002
 MonoBehaviour:
@@ -2985,79 +2985,51 @@ MonoBehaviour:
       respuestaCorrecta: 0
   - nombreDificultad: Normal
     preguntas:
-    - informacionComplementaria: "La velocidad de la luz en el vac\xEDo es aproximadamente
-        299,792,458 metros por segundo, lo que equivale a unos 300,000 kil\xF3metros
-        por segundo. Esta velocidad es una constante fundamental en la f\xEDsica
-        y es crucial para muchas teor\xEDas y ecuaciones, como la famosa ecuaci\xF3n
-        de Einstein, (E = mc^2), donde (c) representa la velocidad de la luz."
-      enunciado: "\xBFCu\xE1l es la velocidad aproximada de la luz en el vac\xEDo?"
+    - informacionComplementaria: France gifted the Statue of Liberty to the United
+        States in 1886.
+      enunciado: Which country gifted the Statue of Liberty to the United States?
       respuestas:
-      - texto: "450,000 kil\xF3metros por segundo"
-      - texto: "600,000 kil\xF3metros por segundo"
-      - texto: "150,000 kil\xF3metros por segundo"
-      - texto: "300,000 kil\xF3metros por segundo"
+      - texto: Germany
+      - texto: Italy
+      - texto: Spain
+      - texto: France
       respuestaCorrecta: 3
-    - informacionComplementaria: "Las nebulosas son enormes nubes de gas y polvo
-        en el espacio, que a menudo tienen colores llamativos y formas variadas.
-        Estas estructuras c\xF3smicas pueden ser lugares donde nacen nuevas estrellas
-        o restos de estrellas que han explotado.  Existen varios tipos de nebulosas: 
-        Nebulosas de emisi\xF3n: Emiten luz propia debido a la radiaci\xF3n ultravioleta
-        de estrellas cercanas que ioniza el gas en la nebulosa. Nebulosas de reflexi\xF3n:
-        Reflejan la luz de estrellas cercanas y suelen aparecer en tonos azulados.
-        Nebulosas oscuras: No emiten ni reflejan luz, y se ven como manchas oscuras
-        contra el fondo estrellado. Nebulosas planetarias: Formadas por las capas
-        exteriores expulsadas de estrellas moribundas, a menudo tienen formas de
-        anillo o burbuja. Un ejemplo famoso es la Nebulosa de Ori\xF3n, visible a
-        simple vista desde la Tierra y un lugar activo de formaci\xF3n estelar."
-      enunciado: "\xBFQu\xE9 son las nebulosas?"
+    - informacionComplementaria: Albert Einstein introduced the theory of relativity
+        in the early 20th century.
+      enunciado: Which scientist developed the theory of relativity?
       respuestas:
-      - texto: "Galaxias en formaci\xF3n"
-      - texto: "Regiones de formaci\xF3n estelar compuestas de gas y polvo"
-      - texto: Estrellas moribundas
-      - texto: Planetas gaseosos
-      respuestaCorrecta: 1
-    - informacionComplementaria: "El prop\xF3sito principal del programa Voyager
-        de la NASA es explorar los planetas exteriores del sistema solar y m\xE1s
-        all\xE1. Las sondas gemelas Voyager 1 y Voyager 2 fueron lanzadas en 1977
-        con la misi\xF3n de estudiar J\xFApiter y Saturno, y posteriormente Urano
-        y Neptuno.  Estas sondas han proporcionado datos valiosos sobre estos planetas
-        y sus lunas, y han realizado descubrimientos significativos, como la detecci\xF3n
-        de volcanes activos en Io, una luna de J\xFApiter. Despu\xE9s de completar
-        sus misiones planetarias, ambas sondas continuaron su viaje hacia el espacio
-        interestelar, convirti\xE9ndose en las primeras naves en alcanzar esta regi\xF3n. 
-        Adem\xE1s de sus objetivos cient\xEDficos, las sondas Voyager llevan discos
-        de oro con sonidos e im\xE1genes de la Tierra, destinados a comunicar la
-        existencia de vida en nuestro planeta a cualquier forma de vida extraterrestre
-        que pueda encontrarlas."
-      enunciado: "\xBFCu\xE1l es el prop\xF3sito principal del programa Voyager de
-        la NASA?"
+      - texto: Albert Einstein
+      - texto: Isaac Newton
+      - texto: Galileo Galilei
+      - texto: Niels Bohr
+      respuestaCorrecta: 0
+    - informacionComplementaria: Michelangelo painted the famous ceiling of the Sistine
+        Chapel in Vatican City.
+      enunciado: Who painted the ceiling of the Sistine Chapel?
       respuestas:
-      - texto: Explorar la Luna
-      - texto: Mapear la superficie de Marte
-      - texto: "Estudiar los planetas exteriores del sistema solar y m\xE1s all\xE1"
-      - texto: Monitorear el clima en la Tierra
+      - texto: Leonardo da Vinci
+      - texto: Raphael
+      - texto: Michelangelo
+      - texto: Donatello
       respuestaCorrecta: 2
-    - informacionComplementaria: "Este es el l\xEDmite alrededor del agujero negro
-        m\xE1s all\xE1 del cual ni siquiera la luz puede escapar debido a la intensa
-        fuerza gravitatoria."
-      enunciado: "\xBFC\xF3mo se llama el punto en el espacio donde la gravedad de
-        un agujero negro es tan fuerte que nada puede escapar?"
+    - informacionComplementaria: The Pacific Ocean contains the Mariana Trench, the
+        deepest known point on Earth.
+      enunciado: Which ocean is the deepest?
       respuestas:
-      - texto: Agujero de gusano
-      - texto: Espacio-tiempo
-      - texto: Singuralidad
-      - texto: Horizonte de eventos
+      - texto: Atlantic Ocean
+      - texto: Arctic Ocean
+      - texto: Pacific Ocean
+      - texto: Indian Ocean
+      respuestaCorrecta: 2
+    - informacionComplementaria: WWW stands for World Wide Web, the system of linked
+        pages on the internet.
+      enunciado: What does WWW stand for?
+      respuestas:
+      - texto: Web World Wide
+      - texto: Wide World Web
+      - texto: World Web Wide
+      - texto: World Wide Web
       respuestaCorrecta: 3
-    - informacionComplementaria: "El planeta m\xE1s cercano a la Tierra es Venus.
-        Debido a sus \xF3rbitas, Venus y la Tierra se acercan m\xE1s entre s\xED
-        que cualquier otro par de planetas en el sistema solar."
-      enunciado: "\xBFCu\xE1l es el planeta m\xE1s cercano a la Tierra?"
-      respuestas:
-      - texto: Marte
-      - texto: Venus
-      - texto: "J\xFApiter"
-      - texto: Saturno
-      respuestaCorrecta: 1
   - nombreDificultad: "Dif\xEDcil"
     preguntas:
     - informacionComplementaria: "Los p\xFAlsares son estrellas de neutrones que
