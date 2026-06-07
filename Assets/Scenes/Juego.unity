@@ -3032,84 +3032,50 @@ MonoBehaviour:
       respuestaCorrecta: 3
   - nombreDificultad: "Dif\xEDcil"
     preguntas:
-    - informacionComplementaria: "Los p\xFAlsares son estrellas de neutrones que
-        giran r\xE1pidamente y emiten pulsos regulares de radiaci\xF3n electromagn\xE9tica.
-        Se forman a partir de estrellas masivas que, al agotar su combustible nuclear,
-        explotan como supernovas. El n\xFAcleo de estas estrellas colapsa bajo su
-        propia gravedad, creando una estrella de neutrones extremadamente densa."
-      enunciado: "\xBFQu\xE9 son los p\xFAlsares?"
+    - informacionComplementaria: The Odyssey is an ancient Greek epic poem traditionally
+        attributed to Homer.
+      enunciado: Who wrote 'The Odyssey'?
       respuestas:
-      - texto: Estrellas enanas blancas
-      - texto: Estrellas masivas en la fase final de su vida
-      - texto: "Estrellas de neutrones que emiten radiaci\xF3n peri\xF3dica"
-      - texto: "Agujeros negros en rotaci\xF3n"
-      respuestaCorrecta: 2
-    - informacionComplementaria: "La constante de Hubble es un par\xE1metro fundamental
-        en cosmolog\xEDa que mide la tasa de expansi\xF3n del universo. Fue propuesta
-        por el astr\xF3nomo Edwin Hubble en 1929, quien descubri\xF3 que las galaxias
-        se alejan de nosotros a una velocidad proporcional a su distancia. En t\xE9rminos
-        simples, la constante de Hubble nos dice cu\xE1n r\xE1pido se est\xE1 expandiendo
-        el universo. Se expresa en kil\xF3metros por segundo por megap\xE1rsec (km/s/Mpc),
-        donde un megap\xE1rsec equivale a unos 3.26 millones de a\xF1os luz,  Por
-        ejemplo, un valor t\xEDpico de la constante de Hubble es alrededor de 70
-        km/s/Mpc, lo que significa que por cada megap\xE1rsec de distancia, una galaxia
-        se aleja de nosotros a 70 kil\xF3metros por segundo."
-      enunciado: "\xBFQu\xE9 es la constante de Hubble?"
-      respuestas:
-      - texto: Una medida de la densidad de la materia en el universo
-      - texto: Una medida de la velocidad a la que el universo se expande
-      - texto: La velocidad de la luz en el espacio
-      - texto: La constante gravitacional de Newton
+      - texto: Plato
+      - texto: Homer
+      - texto: Sophocles
+      - texto: Virgil
       respuestaCorrecta: 1
-    - informacionComplementaria: "La fuente de energ\xEDa que alimenta a las estrellas
-        durante la mayor parte de sus vidas es la fusi\xF3n nuclear. Este proceso
-        ocurre en el n\xFAcleo de las estrellas, donde las temperaturas y presiones
-        extremadamente altas permiten que los n\xFAcleos de hidr\xF3geno se fusionen
-        para formar helio. Durante esta fusi\xF3n, una peque\xF1a cantidad de masa
-        se convierte en una enorme cantidad de energ\xEDa, seg\xFAn la famosa ecuaci\xF3n
-        de Einstein, (E=mc^2).  La fusi\xF3n nuclear es responsable de la luz y el
-        calor que emiten las estrellas, y es lo que mantiene a las estrellas brillando
-        durante la mayor parte de sus vidas. En las estrellas de la secuencia principal,
-        como nuestro Sol, el hidr\xF3geno se convierte en helio en una serie de reacciones
-        nucleares que liberan energ\xEDa de manera constante."
-      enunciado: "\xBFCu\xE1l es la fuente de energ\xEDa que alimenta a las estrellas
-        durante la mayor parte de sus vidas?"
+    - informacionComplementaria: The Berlin Wall fell in 1989, marking the beginning
+        of German reunification.
+      enunciado: In which year did the Berlin Wall fall?
       respuestas:
-      - texto: "Fisi\xF3n nuclear"
-      - texto: "Desintegraci\xF3n radiactiva"
-      - texto: "Fusi\xF3n nuclear"
-      - texto: "Reacciones qu\xEDmicas"
-      respuestaCorrecta: 2
-    - informacionComplementaria: "El n\xFAcleo del Sol es una regi\xF3n extremadamente
-        caliente y densa, con una temperatura aproximada de 15 millones de grados
-        Celsius. Esta temperatura es esencial para que ocurra la fusi\xF3n nuclear,
-        el proceso que convierte el hidr\xF3geno en helio y libera una enorme cantidad
-        de energ\xEDa. Esta energ\xEDa es la que alimenta al Sol y le permite emitir
-        luz y calor. El n\xFAcleo solar tiene una densidad de aproximadamente 150
-        gramos por cent\xEDmetro c\xFAbico, lo que es 150 veces la densidad del agua
-        en estado l\xEDquido. La presi\xF3n en el centro del n\xFAcleo es de unos
-        2.65\xD710\xB9\u2076 pascales."
-      enunciado: "\xBFCu\xE1l es la temperatura aproximada en el n\xFAcleo del Sol?"
+      - texto: 1989
+      - texto: 1988
+      - texto: 1991
+      - texto: 1979
+      respuestaCorrecta: 0
+    - informacionComplementaria: Nicolaus Copernicus proposed that the planets orbit
+        the Sun.
+      enunciado: Who developed the heliocentric model of the Solar System?
       respuestas:
-      - texto: "1 mill\xF3n de grados Celsius"
-      - texto: 10 millones de grados Celsius
-      - texto: 15 millones de grados Celsius
-      - texto: 16 millones de grados Celsius
-      respuestaCorrecta: 2
-    - informacionComplementaria: "El fen\xF3meno astron\xF3mico que se produce cuando
-        una estrella masiva explota al final de su vida se llama supernova. Una supernova
-        es una explosi\xF3n estelar extremadamente poderosa que ocurre cuando una
-        estrella masiva agota su combustible nuclear y su n\xFAcleo colapsa bajo
-        su propia gravedad. Este colapso genera una onda de choque que expulsa las
-        capas exteriores de la estrella al espacio, liberando una cantidad colosal
-        de energ\xEDa y brillando m\xE1s que toda una galaxia por un breve per\xEDodo."
-      enunciado: "\xBFQu\xE9 fen\xF3meno astron\xF3mico se produce cuando una estrella
-        masiva explota al final de su vida?"
+      - texto: Galileo
+      - texto: Kepler
+      - texto: Tycho Brahe
+      - texto: Copernicus
+      respuestaCorrecta: 3
+    - informacionComplementaria: An octopus has three hearts that help circulate
+        blood through its body.
+      enunciado: How many hearts does an octopus have?
       respuestas:
-      - texto: Nova
-      - texto: Supernova
-      - texto: Pulsar
-      - texto: "Qu\xE1sar"
+      - texto: 1
+      - texto: 3
+      - texto: 2
+      - texto: 4
+      respuestaCorrecta: 1
+    - informacionComplementaria: Sudan has more pyramids than Egypt, most of them
+        built by the Kingdom of Kush.
+      enunciado: Which country has the most pyramids in the world?
+      respuestas:
+      - texto: Peru
+      - texto: Sudan
+      - texto: Mexico
+      - texto: Egypt
       respuestaCorrecta: 1
   - nombreDificultad: "Muy dif\xEDcil"
     preguntas:
