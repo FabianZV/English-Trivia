@@ -167,7 +167,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 8591ad65d0b8e9a45a805ca6556b9b16, type: 3}
+  m_Resource: {fileID: 8300000, guid: 0b872d9eff30d0443b530dd469026333, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.136
   m_Pitch: 1
@@ -615,7 +615,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Salir al menu
+  m_Text: Return to Menu
 --- !u!222 &1897376681
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -12,7 +12,7 @@ namespace Assets.Scripts
 {
     public class TiempoMaximoPregunta : MonoBehaviour
     {
-        public float TiempoRestantePregunta = 15; // Tiempo restante para la pregunta
+        public float TiempoRestantePregunta = 20; // Tiempo restante para la pregunta
         public GameObject pnl_InformacionComplementaria; // Panel de información complementaria
         public Text txt_TiempoPregunta; // Texto de la UI para mostrar el tiempo
         private bool PausaTiempo = false; // Estado de pausa
@@ -32,16 +32,16 @@ namespace Assets.Scripts
             // Si no está en pausa y hay tiempo restante
             else if (TiempoRestantePregunta > 0)
             {
-                // Si se desactiva el panel, restablece el contador a 15 solo una vez
+                // Si se desactiva el panel, restablece el contador a 20 solo una vez
                 if (!pnl_InformacionComplementaria.activeSelf && !tiempoRestablecido)
                 {
-                    TiempoRestantePregunta = 15; // Restablecer el tiempo a 15 segundos
+                    TiempoRestantePregunta = 20; // Restablecer el tiempo a 20 segundos
                     tiempoRestablecido = true; // Marca que el tiempo ha sido restablecido
                 }
 
                 // Descuenta el tiempo en segundos reales
                 TiempoRestantePregunta -= Time.deltaTime;
-                txt_TiempoPregunta.text = "Tiempo para responder: " + Mathf.Ceil(TiempoRestantePregunta).ToString() + " segundos";
+                txt_TiempoPregunta.text = "Time Left: " + Mathf.Ceil(TiempoRestantePregunta).ToString() + " Seconds";
 
                 // Si el tiempo llega a 0, cambiar a la escena "Perder"
                 if (TiempoRestantePregunta <= 0)
@@ -53,7 +53,7 @@ namespace Assets.Scripts
             }
 
             // Actualizar el texto del contador en la UI
-            txt_TiempoPregunta.text = "Tiempo para responder: " + Mathf.Ceil(TiempoRestantePregunta).ToString() + " segundos";
+            txt_TiempoPregunta.text = "Time Left: " + Mathf.Ceil(TiempoRestantePregunta).ToString() + " Seconds";
         }
     }
 }

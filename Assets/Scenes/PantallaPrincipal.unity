@@ -785,7 +785,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Iniciar
+  m_Text: Start
 --- !u!222 &991202468
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -932,7 +932,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Cr\xE9ditos"
+  m_Text: Credits
 --- !u!222 &1622513832
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1078,7 +1078,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Salir
+  m_Text: Quit
 --- !u!222 &1664624016
 CanvasRenderer:
   m_ObjectHideFlags: 0
