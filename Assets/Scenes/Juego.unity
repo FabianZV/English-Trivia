@@ -2892,60 +2892,51 @@ MonoBehaviour:
   bancoDePreguntas:
   - nombreDificultad: "Muy f\xE1cil"
     preguntas:
-    - informacionComplementaria: "El planeta mas cercano al sol es Mercurio, este
-        se encuentra a una distancia media de aproximadamente 57.9 millones de kil\xF3metros
-        del sol."
-      enunciado: "\xBFCu\xE1l es el planeta m\xE1s cercano al Sol?"
+    - informacionComplementaria: Paris is the capital and largest city of France.
+        It is known for landmarks such as the Eiffel Tower and the Louvre Museum.
+      enunciado: What is the capital of France?
       respuestas:
-      - texto: Marte
-      - texto: Mercurio
-      - texto: Tierra
-      - texto: Venus
+      - texto: Rome
+      - texto: Paris
+      - texto: Madrid
+      - texto: Berlin
       respuestaCorrecta: 1
-    - informacionComplementaria: "Es el \xFAnico sat\xE9lite natural de nuestro planeta
-        y uno de los cuerpos celestes m\xE1s importantes para la humanidad debido
-        a su influencia en las mareas. Se encuentra a una distancia media de aproximadamente
-        384,400 kil\xF3metros de nuestro planeta y es el quinto sat\xE9lite m\xE1s
-        grande del Sistema Solar. La Luna tiene un di\xE1metro de 3,476 kil\xF3metros,
-        lo que equivale a aproximadamente una cuarta parte del di\xE1metro de la
-        Tierra."
-      enunciado: "\xBFC\xF3mo se llama el sat\xE9lite natural de la Tierra?"
+    - informacionComplementaria: Water is made of two hydrogen atoms and one oxygen
+        atom, which is why its formula is H2O.
+      enunciado: What is the chemical formula for water?
       respuestas:
-      - texto: Venus
-      - texto: Marte
-      - texto: La Luna
-      - texto: "Tit\xE1n"
+      - texto: O2
+      - texto: CO2
+      - texto: H2O
+      - texto: NaCl
       respuestaCorrecta: 2
-    - informacionComplementaria: "Este apodo se debe a su caracteristico color rojizo,
-        que es causado por la presencia de \xF3xido de hierro en su superficie."
-      enunciado: "\xBFQu\xE9 planeta es conocido como el \u201CPlaneta Rojo\u201D?"
+    - informacionComplementaria: The blue whale is the largest mammal and the largest
+        animal known to have ever existed on Earth.
+      enunciado: Which animal is the largest mammal in the world?
       respuestas:
-      - texto: "J\xFApiter"
-      - texto: Marte
-      - texto: Saturno
-      - texto: Neptuno
-      respuestaCorrecta: 1
-    - informacionComplementaria: "Este gigante gaseoso tiene un di\xE1metro de aproximadamente
-        143000 kil\xF3metros, lo que lo hace m\xE1s de once veces m\xE1s grande que
-        la Tierra."
-      enunciado: "\xBFCu\xE1l es el planeta m\xE1s grande del sistema solar?"
-      respuestas:
-      - texto: La Tierra
-      - texto: Urano
-      - texto: Neptuno
-      - texto: "J\xFApiter"
+      - texto: Elephant
+      - texto: Giraffe
+      - texto: Hippopotamus
+      - texto: Blue Whale
       respuestaCorrecta: 3
-    - informacionComplementaria: "La V\xEDa L\xE1ctea es la galaxia en la que se
-        encuentra nuestro sistema solar, incluyendo la Tierra. Es una gigantesca
-        agrupaci\xF3n de estrellas, planetas y nubes de gas con forma de espiral
-        barrada. Su di\xE1metro es de aproximadamente 200,000 a\xF1os luz."
-      enunciado: "\xBFQu\xE9 es la V\xEDa L\xE1ctea?"
+    - informacionComplementaria: Tokyo is the capital of Japan and one of the largest
+        metropolitan areas in the world.
+      enunciado: What is the capital of Japan?
       respuestas:
-      - texto: Un cometa
-      - texto: Un asteroide
-      - texto: Una galaxia
-      - texto: Una estrella
-      respuestaCorrecta: 2
+      - texto: Kyoto
+      - texto: Tokyo
+      - texto: Osaka
+      - texto: Nagoya
+      respuestaCorrecta: 1
+    - informacionComplementaria: Humans need oxygen for cellular respiration, the
+        process that releases energy from food.
+      enunciado: Which gas do humans need to breathe?
+      respuestas:
+      - texto: Oxygen
+      - texto: Nitrogen
+      - texto: Helium
+      - texto: Hydrogen
+      respuestaCorrecta: 0
   - nombreDificultad: "F\xE1cil"
     preguntas:
     - informacionComplementaria: "El primer hombre en viajar al espacio fue Yuri
