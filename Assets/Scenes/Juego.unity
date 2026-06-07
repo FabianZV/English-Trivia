@@ -2939,86 +2939,50 @@ MonoBehaviour:
       respuestaCorrecta: 0
   - nombreDificultad: "F\xE1cil"
     preguntas:
-    - informacionComplementaria: "El primer hombre en viajar al espacio fue Yuri
-        Gagarin, un cosmonauta sovi\xE9tico. El 12 de abril de 1961, Gagarin orbit\xF3
-        la Tierra a bordo de la nave espacial Vostok 1. Este hist\xF3rico vuelo dur\xF3
-        108 minutos y marc\xF3 el inicio de la era de los vuelos espaciales tripulados."
-      enunciado: "\xBFQui\xE9n fue el primer hombre en viajar al espacio?"
+    - informacionComplementaria: Au is the chemical symbol for gold and comes from
+        the Latin word 'Aurum'.
+      enunciado: Which element has the chemical symbol Au?
       respuestas:
-      - texto: Yuri Gagarin
-      - texto: Neil Armstrong
-      - texto: Buzz Aldrin
-      - texto: Alan Shepard
+      - texto: Silver
+      - texto: Aluminum
+      - texto: Gold
+      - texto: Argon
+      respuestaCorrecta: 2
+    - informacionComplementaria: The heart pumps blood through the circulatory system
+        to all parts of the body.
+      enunciado: Which organ pumps blood throughout the human body?
+      respuestas:
+      - texto: Lungs
+      - texto: Kidneys
+      - texto: Liver
+      - texto: Heart
+      respuestaCorrecta: 3
+    - informacionComplementaria: Water boils at 100 degrees Celsius under normal
+        atmospheric pressure.
+      enunciado: At what temperature does water boil at sea level?
+      respuestas:
+      - texto: "90\xB0C"
+      - texto: "95\xB0C"
+      - texto: "100\xB0C"
+      - texto: "110\xB0C"
+      respuestaCorrecta: 2
+    - informacionComplementaria: The Titanic sank during its first voyage after striking
+        an iceberg.
+      enunciado: Which famous ship sank after hitting an iceberg in 1912?
+      respuestas:
+      - texto: Britannic
+      - texto: Titanic
+      - texto: Lusitania
+      - texto: Queen Mary
+      respuestaCorrecta: 1
+    - informacionComplementaria: Vincent van Gogh painted The Starry Night in 1889.
+      enunciado: Who painted The Starry Night?
+      respuestas:
+      - texto: Vincent van Gogh
+      - texto: Pablo Picasso
+      - texto: "Salvador Dal\xED"
+      - texto: Claude Monet
       respuestaCorrecta: 0
-    - informacionComplementaria: "La Luna es el \xFAnico sat\xE9lite natural de la
-        Tierra. Es un cuerpo celeste rocoso con un di\xE1metro ecuatorial de aproximadamente
-        3,474.8 km, lo que la convierte en el quinto sat\xE9lite m\xE1s grande del
-        sistema solar, su gravedad es aproximadamente 1/6 de la gravedad en la tierra
-        y pasa por diferentes fases (nueva, creciente, llena, menguante) debido a
-        su posici\xF3n relativa con la Tierra y el Sol. Adem\xE1s, la Luna tiene
-        una gran influencia en la Tierra, como en las mareas, y ha sido un objeto
-        de fascinaci\xF3n cultural y cient\xEDfica desde la antig\xFCedad."
-      enunciado: "\xBFQu\xE9 es la Luna?"
-      respuestas:
-      - texto: Un planeta enano
-      - texto: Un cometa
-      - texto: "Un sat\xE9lite natural de la Tierra"
-      - texto: Una estrella
-      respuestaCorrecta: 2
-    - informacionComplementaria: "El sistema solar est\xE1 compuesto por ocho planetas
-        principales que orbitan alrededor del Sol. Mercurio, el m\xE1s cercano al
-        Sol, es un planeta peque\xF1o y rocoso con temperaturas extremas. Venus,
-        el segundo planeta, tiene una atm\xF3sfera densa y t\xF3xica, y es el planeta
-        m\xE1s caliente del sistema solar. La Tierra, nuestro hogar, es el tercer
-        planeta y el \xFAnico conocido que alberga vida, gracias a su atm\xF3sfera
-        rica en ox\xEDgeno y su abundancia de agua l\xEDquida.  Marte, el cuarto
-        planeta, es conocido como el \u201Cplaneta rojo\u201D y ha sido objeto de
-        muchas misiones de exploraci\xF3n debido a su potencial para haber albergado
-        vida en el pasado. J\xFApiter, el quinto planeta, es el m\xE1s grande del
-        sistema solar y tiene una atm\xF3sfera turbulenta con enormes tormentas,
-        incluida la Gran Mancha Roja. Saturno, el sexto planeta, es famoso por sus
-        impresionantes anillos.  Urano, el s\xE9ptimo planeta, es un gigante helado
-        con una atm\xF3sfera compuesta principalmente de hidr\xF3geno, helio y metano,
-        lo que le da su distintivo color azul verdoso. Neptuno, el octavo planeta,
-        es similar a Urano en composici\xF3n y tambi\xE9n es conocido por sus intensas
-        tormentas y vientos.  Aunque Plut\xF3n fue reclasificado como un planeta
-        enano en 2006, sigue siendo un objeto de gran inter\xE9s en el estudio del
-        sistema solar. Este peque\xF1o y helado mundo se encuentra en el cintur\xF3n
-        de Kuiper, una regi\xF3n llena de cuerpos helados y restos de la formaci\xF3n
-        del sistema solar."
-      enunciado: "\xBFCu\xE1ntos planetas hay en el sistema solar?"
-      respuestas:
-      - texto: 7
-      - texto: 9
-      - texto: 8
-      - texto: 6
-      respuestaCorrecta: 2
-    - informacionComplementaria: "El planeta m\xE1s lejano del Sol en nuestro sistema
-        solar es Neptuno. Este gigante gaseoso se encuentra a una distancia promedio
-        de aproximadamente 4,495 millones de kil\xF3metros del Sol. Neptuno es conocido
-        por sus intensos vientos, los m\xE1s r\xE1pidos del sistema solar, y su distintivo
-        color azul, causado por la presencia de metano en su atm\xF3sfera."
-      enunciado: "\xBFCu\xE1l es el planeta m\xE1s lejano del Sol en nuestro sistema
-        solar?"
-      respuestas:
-      - texto: Neptuno
-      - texto: Urano
-      - texto: "Plut\xF3n"
-      - texto: Saturno
-      respuestaCorrecta: 0
-    - informacionComplementaria: "El planeta Venus tiene la peculiaridad de tener
-        un d\xEDa m\xE1s largo que su a\xF1o. Esto se debe a que su per\xEDodo de
-        rotaci\xF3n sobre su propio eje es extremadamente lento, tomando aproximadamente
-        243 d\xEDas terrestres para completar una sola rotaci\xF3n. En contraste,
-        su a\xF1o, es decir, el tiempo que tarda en dar una vuelta alrededor del
-        Sol, es de aproximadamente 225 d\xEDas terrestres."
-      enunciado: "\xBFQu\xE9 planeta tiene un d\xEDa m\xE1s largo que su a\xF1o?"
-      respuestas:
-      - texto: "J\xFApiter"
-      - texto: Mercurio
-      - texto: Venus
-      - texto: Saturno
-      respuestaCorrecta: 2
   - nombreDificultad: Normal
     preguntas:
     - informacionComplementaria: "La velocidad de la luz en el vac\xEDo es aproximadamente
