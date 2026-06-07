@@ -3079,74 +3079,49 @@ MonoBehaviour:
       respuestaCorrecta: 1
   - nombreDificultad: "Muy dif\xEDcil"
     preguntas:
-    - informacionComplementaria: "La primera misi\xF3n espacial en aterrizar en un
-        cometa fue la misi\xF3n Rosetta de la Agencia Espacial Europea (ESA). El
-        m\xF3dulo de aterrizaje Philae de la sonda Rosetta aterriz\xF3 en el cometa
-        67P/Churyumov-Gerasimenko el 12 de noviembre de 2014."
-      enunciado: "\xBFQu\xE9 misi\xF3n espacial fue la primera en aterrizar en un
-        cometa?"
+    - informacionComplementaria: The first YouTube video was 'Me at the Zoo', uploaded
+        in 2005.
+      enunciado: What was the first video uploaded to YouTube called?
       respuestas:
-      - texto: Rosetta
-      - texto: Voyager 2
-      - texto: New Horizons
-      - texto: Galileo
-      respuestaCorrecta: 0
-    - informacionComplementaria: "El telescopio espacial que ha proporcionado im\xE1genes
-        detalladas del universo desde 1990 es el Telescopio Espacial Hubble. Este
-        observatorio espacial ha revolucionado la astronom\xEDa con sus impresionantes
-        im\xE1genes y descubrimientos, permiti\xE9ndonos ver planetas, estrellas
-        y galaxias con un detalle sin precedentes."
-      enunciado: "\xBFCu\xE1l es el nombre del telescopio espacial que ha proporcionado
-        im\xE1genes detalladas del universo desde 1990?"
-      respuestas:
-      - texto: James Webb
-      - texto: Hubble
-      - texto: Spitzer
-      - texto: Chandra
-      respuestaCorrecta: 1
-    - informacionComplementaria: "El primer objeto interestelar detectado en nuestro
-        sistema solar se llama 'Oumuamua. Fue descubierto en octubre de 2017 por
-        el telescopio Pan-STARRS1 en Haw\xE1i. Su nombre significa \u201Cmensajero
-        de lejos que llega primero\u201D en hawaiano. Oumuamua tiene una forma extremadamente
-        alargada, con estimaciones que sugieren que podr\xEDa ser hasta diez veces
-        m\xE1s largo que ancho. Su tama\xF1o se estima entre 100 y 1,000 metros de
-        largo y entre 35 y 167 metros de ancho."
-      enunciado: "\xBFCu\xE1l es el nombre del primer objeto interestelar detectado
-        en nuestro sistema solar?"
-      respuestas:
-      - texto: Encke
-      - texto: Hale-Bopp
-      - texto: Halley
-      - texto: Oumuamua
-      respuestaCorrecta: 3
-    - informacionComplementaria: "La primera misi\xF3n espacial en aterrizar en el
-        lado oculto de la Luna fue la Chang\u2019e 4 de la Administraci\xF3n Espacial
-        Nacional China (CNSA). Esta sonda logr\xF3 este hito hist\xF3rico el 3 de
-        enero de 2019, alunizando en el cr\xE1ter Von K\xE1rm\xE1n. Chang\u2019e
-        4 est\xE1 compuesta por un aterrizador y un rover llamado Yutu-2, que han
-        estado explorando y estudiando esta regi\xF3n inexplorada de la Luna."
-      enunciado: "\xBFQu\xE9 misi\xF3n espacial fue la primera en aterrizar en el
-        lado oculto de la Luna?"
-      respuestas:
-      - texto: Apollo 11
-      - texto: Luna 2
-      - texto: "Chang\u2019e 4"
-      - texto: Surveyor 1
+      - texto: Hello World
+      - texto: My First Video
+      - texto: Me at the Zoo
+      - texto: At the Zoo
       respuestaCorrecta: 2
-    - informacionComplementaria: "El agujero negro supermasivo en el centro de la
-        V\xEDa L\xE1ctea se llama Sagittarius A*. Este objeto masivo se encuentra
-        a unos 25,000 a\xF1os luz de la Tierra y tiene una masa de aproximadamente
-        4 millones de veces la del Sol. Sagittarius A* se encuentra en el centro
-        de nuestra galaxia, la V\xEDa L\xE1ctea, cerca de la constelaci\xF3n de Sagitario.
-        Fue descubierto en 1974 por Bruce Balick y Robert Brown."
-      enunciado: "\xBFCu\xE1l es el nombre del agujero negro supermasivo en el centro
-        de la V\xEDa L\xE1ctea?"
+    - informacionComplementaria: The Mona Lisa was stolen in 1911 and recovered two
+        years later.
+      enunciado: Which famous painting was stolen from the Louvre in 1911?
       respuestas:
-      - texto: Cygnus X-1
-      - texto: Sagittarius A*
-      - texto: M87*
-      - texto: "Andr\xF3meda B"
+      - texto: Mona Lisa
+      - texto: The Scream
+      - texto: The Last Supper
+      - texto: Girl with a Pearl Earring
+      respuestaCorrecta: 0
+    - informacionComplementaria: Ganymede is the largest moon in the Solar System.
+      enunciado: What is the name of the largest moon of Jupiter?
+      respuestas:
+      - texto: Europa
+      - texto: Io
+      - texto: Ganymede
+      - texto: Callisto
+      respuestaCorrecta: 2
+    - informacionComplementaria: HTML is the standard markup language used to create
+        web pages.
+      enunciado: What does 'HTML' stand for?
+      respuestas:
+      - texto: HighText Machine Language
+      - texto: HyperText Markup Language
+      - texto: Hyper Transfer Markup Language
+      - texto: Home Tool Markup Language
       respuestaCorrecta: 1
+    - informacionComplementaria: The Volga River is the longest river in Europe.
+      enunciado: What is the name of the longest river in Europe?
+      respuestas:
+      - texto: Dnieper
+      - texto: Danube
+      - texto: Rhine
+      - texto: Volga
+      respuestaCorrecta: 3
   enunciado: {fileID: 674629002}
   respuesta:
   - {fileID: 1482403052}
