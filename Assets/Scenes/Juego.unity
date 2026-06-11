@@ -3152,6 +3152,31 @@ MonoBehaviour:
       - texto: Mexico
       - texto: Egypt
       respuestaCorrecta: 1
+    - informacionComplementaria: Alexander Fleming discovered penicillin in 1928.
+      enunciado: Which scientist discovered penicillin?
+      respuestas:
+      - texto: Curie
+      - texto: Fleming
+      - texto: Faraday
+      - texto: Pasteur
+      respuestaCorrecta: 1
+    - informacionComplementaria: Rotator reads the same forwards and backwards.
+      enunciado: Which of these words is a palindrome?
+      respuestas:
+      - texto: Planet
+      - texto: Bridge
+      - texto: Rotator
+      - texto: Castle
+      respuestaCorrecta: 2
+    - informacionComplementaria: Mercury completes an orbit around the Sun in about
+        88 Earth days.
+      enunciado: Which planet has the shortest year?
+      respuestas:
+      - texto: Venus
+      - texto: Mars
+      - texto: Earth
+      - texto: Mercury
+      respuestaCorrecta: 3
   - nombreDificultad: "Muy dif\xEDcil"
     preguntas:
     - informacionComplementaria: The first YouTube video was 'Me at the Zoo', uploaded
