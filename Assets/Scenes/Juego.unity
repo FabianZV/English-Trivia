@@ -3007,6 +3007,30 @@ MonoBehaviour:
       - texto: "Salvador Dal\xED"
       - texto: Claude Monet
       respuestaCorrecta: 0
+    - informacionComplementaria: Plants absorb carbon dioxide during photosynthesis.
+      enunciado: Which gas do plants absorb from the atmosphere?
+      respuestas:
+      - texto: Oxygen
+      - texto: Hydrogen
+      - texto: Nitrogen
+      - texto: Carbon Dioxide
+      respuestaCorrecta: 3
+    - informacionComplementaria: There are 7 continents on Earth.
+      enunciado: How many continents are there?
+      respuestas:
+      - texto: 7
+      - texto: 6
+      - texto: 8
+      - texto: 5
+      respuestaCorrecta: 0
+    - informacionComplementaria: Saturn is famous for its ring system.
+      enunciado: Which planet has rings that are easily visible?
+      respuestas:
+      - texto: Venus
+      - texto: Saturn
+      - texto: Mars
+      - texto: Mercury
+      respuestaCorrecta: 1
   - nombreDificultad: Normal
     preguntas:
     - informacionComplementaria: France gifted the Statue of Liberty to the United
