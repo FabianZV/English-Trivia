@@ -2937,6 +2937,30 @@ MonoBehaviour:
       - texto: Helium
       - texto: Hydrogen
       respuestaCorrecta: 0
+    - informacionComplementaria: A week consists of 7 days.
+      enunciado: How many days are there in a week?
+      respuestas:
+      - texto: 7
+      - texto: 6
+      - texto: 8
+      - texto: 2
+      respuestaCorrecta: 0
+    - informacionComplementaria: Breakfast is the first meal of the day.
+      enunciado: Which meal is usually eaten in the morning?
+      respuestas:
+      - texto: Dinner
+      - texto: Lunch
+      - texto: Breakfast
+      - texto: Supper
+      respuestaCorrecta: 2
+    - informacionComplementaria: Bees produce honey from flower nectar.
+      enunciado: What do bees make?
+      respuestas:
+      - texto: Milk
+      - texto: Honey
+      - texto: Cheese
+      - texto: Butter
+      respuestaCorrecta: 1
   - nombreDificultad: "F\xE1cil"
     preguntas:
     - informacionComplementaria: Au is the chemical symbol for gold and comes from
