@@ -3222,6 +3222,32 @@ MonoBehaviour:
       - texto: Rhine
       - texto: Volga
       respuestaCorrecta: 3
+    - informacionComplementaria: The letter J does not appear in any official chemical
+        element symbol.
+      enunciado: What is the only letter not used in any chemical element symbol?
+      respuestas:
+      - texto: J
+      - texto: Q
+      - texto: X
+      - texto: W
+      respuestaCorrecta: 0
+    - informacionComplementaria: Vexillology is the study of flags and their symbolism.
+      enunciado: What is the term for the study of flags?
+      respuestas:
+      - texto: Philately
+      - texto: Cartography
+      - texto: Numismatics
+      - texto: Vexillology
+      respuestaCorrecta: 3
+    - informacionComplementaria: Triskaidekaphobia is the fear or superstition surrounding
+        the number 13.
+      enunciado: What is the official term for a fear of the number 13?
+      respuestas:
+      - texto: Hexakosioihexekontahexaphobia
+      - texto: Arithmophobia
+      - texto: Triskaidekaphobia
+      - texto: Numerophobia
+      respuestaCorrecta: 2
   enunciado: {fileID: 674629002}
   respuesta:
   - {fileID: 1482403052}
