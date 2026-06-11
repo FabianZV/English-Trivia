@@ -3078,6 +3078,33 @@ MonoBehaviour:
       - texto: World Web Wide
       - texto: World Wide Web
       respuestaCorrecta: 3
+    - informacionComplementaria: The Emperor Penguin is the tallest and heaviest
+        penguin species.
+      enunciado: What is the largest species of penguin?
+      respuestas:
+      - texto: Gentoo Penguin
+      - texto: King Penguin
+      - texto: Emperor Penguin
+      - texto: Macaroni Penguin
+      respuestaCorrecta: 2
+    - informacionComplementaria: Elephants have a gestation period of about 22 months,
+        the longest among land animals.
+      enunciado: Which animal has the longest gestation period?
+      respuestas:
+      - texto: Whale
+      - texto: Giraffe
+      - texto: Rhino
+      - texto: Elephant
+      respuestaCorrecta: 3
+    - informacionComplementaria: The liver is the largest internal organ in the human
+        body.
+      enunciado: What is the largest organ inside the human body?
+      respuestas:
+      - texto: Liver
+      - texto: Lung
+      - texto: Brain
+      - texto: Kidney
+      respuestaCorrecta: 0
   - nombreDificultad: "Dif\xEDcil"
     preguntas:
     - informacionComplementaria: The Odyssey is an ancient Greek epic poem traditionally
