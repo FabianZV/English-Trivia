@@ -23,12 +23,27 @@ public class Game : MonoBehaviour
 
 
 
-    
+
 
     // Metodos //
 
     void Start()
     {
+        TextAsset archivo = Resources.Load<TextAsset>("preguntas");
+
+        if (archivo == null)
+        {
+            Debug.LogError("No se encontró preguntas.json");
+            return;
+        }
+
+        BancoPreguntasWrapper data =
+            JsonUtility.FromJson<BancoPreguntasWrapper>(archivo.text);
+
+        bancoDePreguntas = data.bancoDePreguntas;
+
+        Debug.Log("Preguntas cargadas: " + bancoDePreguntas.Length);
+
         nivelPregunta = 0;
         SelecionarPregunta();
     }

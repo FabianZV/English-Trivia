@@ -1,0 +1,115 @@
+{
+  "bancoDePreguntas": [
+    {
+      "nombreDificultad": "Very Easy",
+      "preguntas": [
+        {
+          "enunciado": "What is the capital of France?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Paris is the capital and largest city of France. It is known for landmarks such as the Eiffel Tower and the Louvre Museum.",
+          "respuestas": [
+            { "texto": "Rome" },
+            { "texto": "Paris" },
+            { "texto": "Madrid" },
+            { "texto": "Berlin" }
+          ]
+        },
+        {
+          "enunciado": "What is the chemical formula for water?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Water is made of two hydrogen atoms and one oxygen atom, which is why its formula is H2O.",
+          "respuestas": [
+            { "texto": "O2" },
+            { "texto": "CO2" },
+            { "texto": "H2O" },
+            { "texto": "NaCl" }
+          ]
+        },
+        {
+          "enunciado": "Which animal is the largest mammal in the world?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "The blue whale is the largest mammal and the largest animal known to have ever existed on Earth.",
+          "respuestas": [
+            { "texto": "Elephant" },
+            { "texto": "Giraffe" },
+            { "texto": "Hippopotamus" },
+            { "texto": "Blue whale" }
+          ]
+        },
+        {
+          "enunciado": "What is the capital of Japan?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Tokyo is the capital of Japan and one of the largest metropolitan areas in the world.",
+          "respuestas": [
+            { "texto": "Kyoto" },
+            { "texto": "Tokyo" },
+            { "texto": "Osaka" },
+            { "texto": "Nagoya" }
+          ]
+        },
+        {
+          "enunciado": "Which gas do humans need to breathe?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Humans need oxygen for cellular respiration, the process that releases energy from food.",
+          "respuestas": [
+            { "texto": "Oxygen" },
+            { "texto": "Nitrogen" },
+            { "texto": "Helium" },
+            { "texto": "Hydrogen" }
+          ]
+        },
+        {
+          "enunciado": "How many days are there in a week?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "A week consists of 7 days.",
+          "respuestas": [
+            { "texto": "7" },
+            { "texto": "6" },
+            { "texto": "8" },
+            { "texto": "2" }
+          ]
+        },
+        {
+          "enunciado": "Which meal is usually eaten in the morning?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Breakfast is the first meal of the day.",
+          "respuestas": [
+            { "texto": "Dinner" },
+            { "texto": "Lunch" },
+            { "texto": "Breakfast" },
+            { "texto": "Supper" }
+          ]
+        },
+        {
+          "enunciado": "What do bees make?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Bees produce honey from flower nectar.",
+          "respuestas": [
+            { "texto": "Milk" },
+            { "texto": "Honey" },
+            { "texto": "Cheese" },
+            { "texto": "Butter" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombreDificultad": "Easy",
+      "preguntas": [
+
+      ]
+    },
+    {
+      "nombreDificultad": "Medium",
+      "preguntas": []
+    },
+    {
+      "nombreDificultad": "Hard",
+      "preguntas": []
+    },
+    {
+      "nombreDificultad": "Very Hard",
+      "preguntas": []
+    }
+  ]
+}
