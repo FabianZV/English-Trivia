@@ -26,6 +26,105 @@
           ]
         },
         {
+          "enunciado": "How many legs does a spider have?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Spiders have 8 legs.",
+          "respuestas": [
+            { "texto": "6" },
+            { "texto": "4" },
+            { "texto": "8" },
+            { "texto": "10" }
+          ]
+        },
+        {
+          "enunciado": "Which shape has four equal sides?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "A square has four equal sides.",
+          "respuestas": [
+            { "texto": "Square" },
+            { "texto": "Rectangle" },
+            { "texto": "Triangle" },
+            { "texto": "Circle" }
+          ]
+        },
+        {
+          "enunciado": "Which animal is known as man's best friend?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Dogs are often called man's best friend.",
+          "respuestas": [
+            { "texto": "Dog" },
+            { "texto": "Cat" },
+            { "texto": "Bird" },
+            { "texto": "Fish" }
+          ]
+        },
+        {
+          "enunciado": "Which bird is a symbol of peace?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "The dove is a common symbol of peace.",
+          "respuestas": [
+            { "texto": "Eagle" },
+            { "texto": "Dove" },
+            { "texto": "Parrot" },
+            { "texto": "Crow" }
+          ]
+        },
+        {
+          "enunciado": "Which country is famous for the Great Wall?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "China is famous for the Great Wall.",
+          "respuestas": [
+            { "texto": "China" },
+            { "texto": "India" },
+            { "texto": "Japan" },
+            { "texto": "Korea" }
+          ]
+        },
+        {
+          "enunciado": "Which country is famous for pizza?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Italy is famous for pizza, especially Naples.",
+          "respuestas": [
+            { "texto": "Italy" },
+            { "texto": "Mexico" },
+            { "texto": "France" },
+            { "texto": "Spain" }
+          ]
+        },
+        {
+          "enunciado": "Which animal is known for having a long neck?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The giraffe is known for its long neck.",
+          "respuestas": [
+            { "texto": "Elephant" },
+            { "texto": "Camel" },
+            { "texto": "Giraffe" },
+            { "texto": "Horse" }
+          ]
+        },
+        {
+          "enunciado": "Which country is famous for tacos?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Mexico is famous for tacos, a traditional dish.",
+          "respuestas": [
+            { "texto": "Mexico" },
+            { "texto": "Spain" },
+            { "texto": "Italy" },
+            { "texto": "Argentina" }
+          ]
+        },
+        {
+          "enunciado": "Which country is famous for the Statue of Liberty?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The Statue of Liberty is located in the United States.",
+          "respuestas": [
+            { "texto": "United States" },
+            { "texto": "France" },
+            { "texto": "England" },
+            { "texto": "Canada" }
+          ]
+        },
+        {
           "enunciado": "Which animal is the largest mammal in the world?",
           "respuestaCorrecta": 3,
           "informacionComplementaria": "The blue whale is the largest mammal and the largest animal known to have ever existed on Earth.",
@@ -141,6 +240,28 @@
           ]
         },
         {
+          "enunciado": "Choose the correct past tense form: Yesterday, she ____ to the store.",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The past tense of 'go' is 'went'.",
+          "respuestas": [
+            { "texto": "goes" },
+            { "texto": "gone" },
+            { "texto": "went" },
+            { "texto": "going" }
+          ]
+        },
+        {
+          "enunciado": "In the sentence 'The tall building is new,' what is an adjective?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "An adjective describes a noun. In this sentence, 'tall' is the adjective because it describes the building.",
+          "respuestas": [
+            { "texto": "building" },
+            { "texto": "tall" },
+            { "texto": "is" },
+            { "texto": "the" }
+          ]
+        },
+        {
           "enunciado": "Who painted The Starry Night?",
           "respuestaCorrecta": 0,
           "informacionComplementaria": "Vincent van Gogh painted The Starry Night in 1889.",
@@ -183,7 +304,184 @@
             { "texto": "Mars" },
             { "texto": "Mercury" }
           ]
+        },
+        {
+          "enunciado": "Which country invented pizza as we know it today?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Pizza as we know it today originated in Naples, Italy, during the 18th century.",
+          "respuestas": [
+            { "texto": "France" },
+            { "texto": "Italy" },
+            { "texto": "Greece" },
+            { "texto": "Spain" }
+          ]
+        },
+        {
+          "enunciado": "Which planet is known as the Red Planet?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Mars is called the 'Red Planet' because of the iron oxide covering its surface.",
+          "respuestas": [
+            { "texto": "Venus" },
+            { "texto": "Mars" },
+            { "texto": "Jupiter" },
+            { "texto": "Mercury" }
+          ]
+        },
+        {
+          "enunciado": "Which artist is known as the 'King of Pop'?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Michael Jackson is known as the 'King of Pop' due to his global influence on music and entertainment.",
+          "respuestas": [
+            { "texto": "Elvis Presley" },
+            { "texto": "Michael Jackson" },
+            { "texto": "Prince" },
+            { "texto": "Justin Bieber" }
+          ]
+        },
+        {
+          "enunciado": "Which country has the most natural lakes?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Canada has more natural lakes than any other country in the world.",
+          "respuestas": [
+            { "texto": "Brazil" },
+            { "texto": "Canada" },
+            { "texto": "Russia" },
+            { "texto": "United States" }
+          ]
+        },
+        {
+          "enunciado": "What is the smallest country in the world?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Vatican City is the smallest country in the world, with an area of less than 1 square kilometer.",
+          "respuestas": [
+            { "texto": "Monaco" },
+            { "texto": "Vatican City" },
+            { "texto": "San Marino" },
+            { "texto": "Liechtenstein" }
+          ]
+        },
+        {
+          "enunciado": "What is the most abundant gas in Earth’s atmosphere?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Nitrogen makes up about 78% of Earth's atmosphere.",
+          "respuestas": [
+            { "texto": "Oxygen" },
+            { "texto": "Carbon dioxide" },
+            { "texto": "Nitrogen" },
+            { "texto": "Hydrogen" }
+          ]
+        },
+        {
+          "enunciado": "What is the capital of Australia?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Canberra was chosen as the capital of Australia in 1908 as a compromise between Sydney and Melbourne.",
+          "respuestas": [
+            { "texto": "Sydney" },
+            { "texto": "Melbourne" },
+            { "texto": "Canberra" },
+            { "texto": "Brisbane" }
+          ]
+        },
+        {
+          "enunciado": "Who was the first President of the United States?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "George Washington became the first President of the United States in 1789.",
+          "respuestas": [
+            { "texto": "Abraham Lincoln" },
+            { "texto": "George Washington" },
+            { "texto": "Thomas Jefferson" },
+            { "texto": "John Adams" }
+          ]
+        },
+        {
+          "enunciado": "Which movie features the character 'Jack Sparrow'?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Jack Sparrow is the famous pirate played by Johnny Depp in the Pirates of the Caribbean film series.",
+          "respuestas": [
+            { "texto": "Titanic" },
+            { "texto": "Pirates of the Caribbean" },
+            { "texto": "Avatar" },
+            { "texto": "Gladiator" }
+          ]
+        },
+        {
+          "enunciado": "Who painted the Mona Lisa?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The Mona Lisa was painted by Leonardo da Vinci between 1503 and 1506 and is displayed in the Louvre Museum.",
+          "respuestas": [
+            { "texto": "Vincent van Gogh" },
+            { "texto": "Pablo Picasso" },
+            { "texto": "Leonardo da Vinci" },
+            { "texto": "Claude Monet" }
+          ]
+        },
+        {
+          "enunciado": "What part of the atom has a negative charge?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Electrons are negatively charged particles that orbit the nucleus of an atom.",
+          "respuestas": [
+            { "texto": "Proton" },
+            { "texto": "Neutron" },
+            { "texto": "Electron" },
+            { "texto": "Nucleus" }
+          ]
+        },
+        {
+          "enunciado": "Which city is known as the 'City of Canals'?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Venice, Italy, is famous for its canals and gondolas.",
+          "respuestas": [
+            { "texto": "Venice" },
+            { "texto": "Amsterdam" },
+            { "texto": "Bangkok" },
+            { "texto": "Bruges" }
+          ]
+        },
+        {
+          "enunciado": "Fill in the blank: He is interested ____ learning languages.",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "The correct preposition is 'in': 'interested in'.",
+          "respuestas": [
+            { "texto": "on" },
+            { "texto": "at" },
+            { "texto": "about" },
+            { "texto": "in" }
+          ]
+        },
+        {
+          "enunciado": "What force keeps planets in orbit around the Sun?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Gravity is the force that keeps planets in orbit around the Sun.",
+          "respuestas": [
+            { "texto": "Magnetism" },
+            { "texto": "Gravity" },
+            { "texto": "Friction" },
+            { "texto": "Nuclear force" }
+          ]
+        },
+        {
+          "enunciado": "In the sentence 'The dog is sleeping,' what is the noun?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "A noun names a person, place, or thing. In this sentence, 'dog' is the noun.",
+          "respuestas": [
+            { "texto": "dog" },
+            { "texto": "is" },
+            { "texto": "sleeping" },
+            { "texto": "the" }
+          ]
+        },
+        {
+          "enunciado": "Which bird is known for not being able to fly?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "Penguins are birds that cannot fly but are excellent swimmers.",
+          "respuestas": [
+            { "texto": "Eagle" },
+            { "texto": "Parrot" },
+            { "texto": "Sparrow" },
+            { "texto": "Penguin" }
+          ]
         }
+
       ]
     },
     {
@@ -209,6 +507,28 @@
             { "texto": "Isaac Newton" },
             { "texto": "Galileo Galilei" },
             { "texto": "Niels Bohr" }
+          ]
+        },
+        {
+          "enunciado": "In Greek mythology, who was the god of the sea?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Poseidon was the god of the sea and earthquakes in Greek mythology.",
+          "respuestas": [
+            { "texto": "Zeus" },
+            { "texto": "Hades" },
+            { "texto": "Poseidon" },
+            { "texto": "Apollo" }
+          ]
+        },
+        {
+          "enunciado": "Which blood type is known as the universal donor?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "O-negative blood can be given to any patient in emergencies, making it the universal donor.",
+          "respuestas": [
+            { "texto": "AB+" },
+            { "texto": "O+" },
+            { "texto": "O−" },
+            { "texto": "A−" }
           ]
         },
         {
@@ -276,6 +596,17 @@
             { "texto": "Brain" },
             { "texto": "Kidney" }
           ]
+        },
+        {
+          "enunciado": "The Great Wall of China was primarily built to protect against which group?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "The Great Wall of China was built mainly to protect against invasions from the Mongols.",
+          "respuestas": [
+            { "texto": "Romans" },
+            { "texto": "Mongols" },
+            { "texto": "Vikings" },
+            { "texto": "Persians" }
+          ]
         }
       ]
     },
@@ -316,6 +647,50 @@
           ]
         },
         {
+          "enunciado": "Which country has the largest number of islands in the world?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "Sweden has over 267,000 islands, although fewer than 1,000 are inhabited.",
+          "respuestas": [
+            { "texto": "Indonesia" },
+            { "texto": "Philippines" },
+            { "texto": "Canada" },
+            { "texto": "Sweden" }
+          ]
+        },
+        {
+          "enunciado": "Which river flows through the most countries?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "The Danube River flows through or borders 10 countries, more than any other river.",
+          "respuestas": [
+            { "texto": "Amazon River" },
+            { "texto": "Danube River" },
+            { "texto": "Nile River" },
+            { "texto": "Yangtze River" }
+          ]
+        },
+        {
+          "enunciado": "Which country's flag is the only national flag that is not rectangular or square?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Nepal's flag is unique with two stacked triangles representing the Himalayas.",
+          "respuestas": [
+            { "texto": "Bhutan" },
+            { "texto": "Nepal" },
+            { "texto": "Switzerland" },
+            { "texto": "Qatar" }
+          ]
+        },
+        {
+          "enunciado": "Which civilization built the ancient city of Machu Picchu?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The Inca civilization built Machu Picchu in the 15th century in Peru.",
+          "respuestas": [
+            { "texto": "Maya" },
+            { "texto": "Aztec" },
+            { "texto": "Inca" },
+            { "texto": "Olmec" }
+          ]
+        },
+        {
           "enunciado": "How many hearts does an octopus have?",
           "respuestaCorrecta": 1,
           "informacionComplementaria": "An octopus has three hearts that help circulate blood through its body.",
@@ -324,6 +699,83 @@
             { "texto": "3" },
             { "texto": "2" },
             { "texto": "4" }
+          ]
+        },
+        {
+          "enunciado": "Which scientist proposed the laws of planetary motion?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Johannes Kepler formulated the three laws of planetary motion in the early 17th century.",
+          "respuestas": [
+            { "texto": "Galileo Galilei" },
+            { "texto": "Johannes Kepler" },
+            { "texto": "Isaac Newton" },
+            { "texto": "Copernicus" }
+          ]
+        },
+        {
+          "enunciado": "What is the smallest bone in the human body?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The stapes bone in the middle ear is the smallest bone in the human body.",
+          "respuestas": [
+            { "texto": "Stapes" },
+            { "texto": "Femur" },
+            { "texto": "Radius" },
+            { "texto": "Ulna" }
+          ]
+        },
+        {
+          "enunciado": "Which ancient civilization used cuneiform writing?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The Sumerians developed cuneiform, one of the earliest writing systems. It used wedge-shaped marks pressed into clay tablets with a reed stylus and was first used around 3100 BC in Mesopotamia to record trade and later laws and stories.",
+          "respuestas": [
+            { "texto": "Sumerians" },
+            { "texto": "Egyptians" },
+            { "texto": "Mayans" },
+            { "texto": "Chinese" }
+          ]
+        },
+        {
+          "enunciado": "Which element has the highest melting point?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "Tungsten has the highest melting point of all elements, at about 3422°C.",
+          "respuestas": [
+            { "texto": "Iron" },
+            { "texto": "Carbon" },
+            { "texto": "Platinum" },
+            { "texto": "Tungsten" }
+          ]
+        },
+        {
+          "enunciado": "Which war was ended by the Treaty of Versailles?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "The Treaty of Versailles in 1919 officially ended World War I.",
+          "respuestas": [
+            { "texto": "World War II" },
+            { "texto": "World War I" },
+            { "texto": "The Cold War" },
+            { "texto": "The Napoleonic Wars" }
+          ]
+        },
+        {
+          "enunciado": "Which scientist discovered radioactivity?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Henri Becquerel discovered radioactivity in 1896.",
+          "respuestas": [
+            { "texto": "Marie Curie" },
+            { "texto": "Albert Einstein" },
+            { "texto": "Henri Becquerel" },
+            { "texto": "Niels Bohr" }
+          ]
+        },
+        {
+          "enunciado": "Who wrote the novel One Hundred Years of Solitude?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Gabriel García Márquez wrote One Hundred Years of Solitude, a masterpiece of magical realism.",
+          "respuestas": [
+            { "texto": "Mario Vargas Llosa" },
+            { "texto": "Isabel Allende" },
+            { "texto": "Gabriel García Márquez" },
+            { "texto": "Jorge Luis Borges" }
           ]
         },
         {
@@ -398,6 +850,17 @@
           ]
         },
         {
+          "enunciado": "Which empire built the Hagia Sophia in Constantinople?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The Byzantine Empire constructed the Hagia Sophia under Emperor Justinian I in 537 AD.",
+          "respuestas": [
+            { "texto": "Roman Empire" },
+            { "texto": "Ottoman Empire" },
+            { "texto": "Byzantine Empire" },
+            { "texto": "Persian Empire" }
+          ]
+        },
+        {
           "enunciado": "What is the name of the largest moon of Jupiter?",
           "respuestaCorrecta": 2,
           "informacionComplementaria": "And Ganymede is the largest moon in the Solar System.",
@@ -428,6 +891,39 @@
             { "texto": "Danube" },
             { "texto": "Rhine" },
             { "texto": "Volga" }
+          ]
+        },
+        {
+          "enunciado": "Which scientist discovered the circulation of blood?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "William Harvey discovered the circulation of blood in the human body in 1628.",
+          "respuestas": [
+            { "texto": "William Harvey" },
+            { "texto": "Louis Pasteur" },
+            { "texto": "Robert Koch" },
+            { "texto": "Joseph Lister" }
+          ]
+        },
+        {
+          "enunciado": "Which famous battle took place in 1066?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "The Battle of Hastings in 1066 marked the Norman conquest of England.",
+          "respuestas": [
+            { "texto": "Battle of Waterloo" },
+            { "texto": "Battle of Agincourt" },
+            { "texto": "Battle of Tours" },
+            { "texto": "Battle of Hastings" }
+          ]
+        },
+        {
+          "enunciado": "Which scientist discovered the neutron?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "James Chadwick discovered the neutron in 1932.",
+          "respuestas": [
+            { "texto": "Albert Einstein" },
+            { "texto": "Niels Bohr" },
+            { "texto": "Ernest Rutherford" },
+            { "texto": "James Chadwick" }
           ]
         },
         {
