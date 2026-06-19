@@ -96,20 +96,374 @@
     {
       "nombreDificultad": "Easy",
       "preguntas": [
-
+        {
+          "enunciado": "Which element has the chemical symbol Au?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The symbol Au comes from the Latin word 'Aurum', which means gold.",
+          "respuestas": [
+            { "texto": "Silver" },
+            { "texto": "Aluminum" },
+            { "texto": "Gold" },
+            { "texto": "Argon" }
+          ]
+        },
+        {
+          "enunciado": "Which organ pumps blood throughout the human body?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "The heart is the main organ of the circulatory system and is responsible for pumping blood throughout the body.",
+          "respuestas": [
+            { "texto": "Lungs" },
+            { "texto": "Kidneys" },
+            { "texto": "Liver" },
+            { "texto": "Heart" }
+          ]
+        },
+        {
+          "enunciado": "At what temperature does water boil at sea level?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "At sea level, water boils at exactly 100°C under normal atmospheric pressure.",
+          "respuestas": [
+            { "texto": "90°C" },
+            { "texto": "95°C" },
+            { "texto": "100°C" },
+            { "texto": "110°C" }
+          ]
+        },
+        {
+          "enunciado": "Which famous ship sank after hitting an iceberg in 1912?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "The Titanic sank in 1912 after hitting an iceberg during its maiden voyage across the Atlantic Ocean.",
+          "respuestas": [
+            { "texto": "Britannic" },
+            { "texto": "Titanic" },
+            { "texto": "Lusitania" },
+            { "texto": "Queen Mary" }
+          ]
+        },
+        {
+          "enunciado": "Who painted The Starry Night?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Vincent van Gogh painted The Starry Night in 1889.",
+          "respuestas": [
+            { "texto": "Vincent van Gogh" },
+            { "texto": "Pablo Picasso" },
+            { "texto": "Salvador Dalí" },
+            { "texto": "Claude Monet" }
+          ]
+        },
+        {
+          "enunciado": "Which gas do plants absorb from the atmosphere?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "Plants absorb carbon dioxide during photosynthesis.",
+          "respuestas": [
+            { "texto": "Oxygen" },
+            { "texto": "Hydrogen" },
+            { "texto": "Nitrogen" },
+            { "texto": "Carbon Dioxide" }
+          ]
+        },
+        {
+          "enunciado": "How many continents are there?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "There are 7 continents on Earth.",
+          "respuestas": [
+            { "texto": "7" },
+            { "texto": "6" },
+            { "texto": "8" },
+            { "texto": "5" }
+          ]
+        },
+        {
+          "enunciado": "Which planet has rings that are easily visible?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Saturn is famous for its ring system.",
+          "respuestas": [
+            { "texto": "Venus" },
+            { "texto": "Saturn" },
+            { "texto": "Mars" },
+            { "texto": "Mercury" }
+          ]
+        }
       ]
     },
     {
       "nombreDificultad": "Medium",
-      "preguntas": []
+      "preguntas": [
+        {
+          "enunciado": "Which country gifted the Statue of Liberty to the United States?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "France gifted the Statue of Liberty to the United States in 1886.",
+          "respuestas": [
+            { "texto": "Germany" },
+            { "texto": "Italy" },
+            { "texto": "Spain" },
+            { "texto": "France" }
+          ]
+        },
+        {
+          "enunciado": "Which scientist developed the theory of relativity?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Albert Einstein introduced the theory of relativity in the early 20th century.",
+          "respuestas": [
+            { "texto": "Albert Einstein" },
+            { "texto": "Isaac Newton" },
+            { "texto": "Galileo Galilei" },
+            { "texto": "Niels Bohr" }
+          ]
+        },
+        {
+          "enunciado": "Who painted the ceiling of the Sistine Chapel?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Michelangelo painted the famous ceiling of the Sistine Chapel in Vatican City.",
+          "respuestas": [
+            { "texto": "Leonardo da Vinci" },
+            { "texto": "Raphael" },
+            { "texto": "Michelangelo" },
+            { "texto": "Donatello" }
+          ]
+        },
+        {
+          "enunciado": "Which ocean is the deepest?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The Pacific Ocean contains the Mariana Trench, the deepest known point on Earth.",
+          "respuestas": [
+            { "texto": "Atlantic Ocean" },
+            { "texto": "Arctic Ocean" },
+            { "texto": "Pacific Ocean" },
+            { "texto": "Indian Ocean" }
+          ]
+        },
+        {
+          "enunciado": "What does WWW stand for?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "WWW stands for World Wide Web, the system of linked pages on the internet.",
+          "respuestas": [
+            { "texto": "Web World Wide" },
+            { "texto": "Wide World Web" },
+            { "texto": "World Web Wide" },
+            { "texto": "World Wide Web" }
+          ]
+        },
+        {
+          "enunciado": "What is the largest species of penguin?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The Emperor Penguin is the tallest and heaviest penguin species.",
+          "respuestas": [
+            { "texto": "Gentoo Penguin" },
+            { "texto": "King Penguin" },
+            { "texto": "Emperor Penguin" },
+            { "texto": "Macaroni Penguin" }
+          ]
+        },
+        {
+          "enunciado": "Which animal has the longest gestation period?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "Elephants have a gestation period of about 22 months, the longest among land animals.",
+          "respuestas": [
+            { "texto": "Whale" },
+            { "texto": "Giraffe" },
+            { "texto": "Rhino" },
+            { "texto": "Elephant" }
+          ]
+        },
+        {
+          "enunciado": "What is the largest organ inside the human body?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The liver is the largest internal organ in the human body.",
+          "respuestas": [
+            { "texto": "Liver" },
+            { "texto": "Lung" },
+            { "texto": "Brain" },
+            { "texto": "Kidney" }
+          ]
+        }
+      ]
     },
     {
       "nombreDificultad": "Hard",
-      "preguntas": []
+      "preguntas": [
+        {
+          "enunciado": "Who wrote 'The Odyssey'?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "The Odyssey is an ancient Greek epic poem traditionally attributed to Homer.",
+          "respuestas": [
+            { "texto": "Plato" },
+            { "texto": "Homer" },
+            { "texto": "Sophocles" },
+            { "texto": "Virgil" }
+          ]
+        },
+        {
+          "enunciado": "In which year did the Berlin Wall fall?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The Berlin Wall fell in 1989, marking the beginning of German reunification.",
+          "respuestas": [
+            { "texto": "1989" },
+            { "texto": "1988" },
+            { "texto": "1991" },
+            { "texto": "1979" }
+          ]
+        },
+        {
+          "enunciado": "Who developed the heliocentric model of the Solar System?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "Nicolaus Copernicus proposed that the planets orbit the Sun.",
+          "respuestas": [
+            { "texto": "Galileo" },
+            { "texto": "Kepler" },
+            { "texto": "Tycho Brahe" },
+            { "texto": "Copernicus" }
+          ]
+        },
+        {
+          "enunciado": "How many hearts does an octopus have?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "An octopus has three hearts that help circulate blood through its body.",
+          "respuestas": [
+            { "texto": "1" },
+            { "texto": "3" },
+            { "texto": "2" },
+            { "texto": "4" }
+          ]
+        },
+        {
+          "enunciado": "Which country has the most pyramids in the world?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Sudan has more pyramids than Egypt, most of them built by the Kingdom of Kush.",
+          "respuestas": [
+            { "texto": "Peru" },
+            { "texto": "Sudan" },
+            { "texto": "Mexico" },
+            { "texto": "Egypt" }
+          ]
+        },
+        {
+          "enunciado": "Which scientist discovered penicillin?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Alexander Fleming discovered penicillin in 1928.",
+          "respuestas": [
+            { "texto": "Curie" },
+            { "texto": "Faraday" },
+            { "texto": "Fleming" },
+            { "texto": "Pasteur" }
+          ]
+        },
+        {
+          "enunciado": "Which of these words is a palindrome?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Rotator reads the same forwards and backwards.",
+          "respuestas": [
+            { "texto": "Rotator" },
+            { "texto": "Bridge" },
+            { "texto": "Planet" },
+            { "texto": "Castle" }
+          ]
+        },
+        {
+          "enunciado": "Which planet has the shortest year?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "Mercury completes an orbit around the Sun in about 88 Earth days.",
+          "respuestas": [
+            { "texto": "Venus" },
+            { "texto": "Mars" },
+            { "texto": "Earth" },
+            { "texto": "Mercury" }
+          ]
+        }
+      ]
     },
     {
       "nombreDificultad": "Very Hard",
-      "preguntas": []
+      "preguntas": [
+        {
+          "enunciado": "What was the first video uploaded to YouTube called?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The first YouTube video was 'Me at the Zoo', uploaded in 2005.",
+          "respuestas": [
+            { "texto": "Hello World" },
+            { "texto": "My First Video" },
+            { "texto": "Me at the Zoo" },
+            { "texto": "At the Zoo" }
+          ]
+        },
+        {
+          "enunciado": "Which famous painting was stolen from the Louvre in 1911?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The Mona Lisa was stolen in 1911 and recovered two years later.",
+          "respuestas": [
+            { "texto": "Mona Lisa" },
+            { "texto": "The Scream" },
+            { "texto": "The Last Supper" },
+            { "texto": "Girl with a Pearl Earring" }
+          ]
+        },
+        {
+          "enunciado": "What is the name of the largest moon of Jupiter?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "And Ganymede is the largest moon in the Solar System.",
+          "respuestas": [
+            { "texto": "Europa" },
+            { "texto": "Io" },
+            { "texto": "Ganymede" },
+            { "texto": "Callisto" }
+          ]
+        },
+        {
+          "enunciado": "What does 'HTML' stand for?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "HTML is the standard markup language used to create web pages.",
+          "respuestas": [
+            { "texto": "HighText Machine Language" },
+            { "texto": "HyperText Markup Language" },
+            { "texto": "Hyper Transfer Markup Language" },
+            { "texto": "Home Tool Markup Language" }
+          ]
+        },
+        {
+          "enunciado": "What is the name of the longest river in Europe?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "The Volga River is the longest river in Europe.",
+          "respuestas": [
+            { "texto": "Dnieper" },
+            { "texto": "Danube" },
+            { "texto": "Rhine" },
+            { "texto": "Volga" }
+          ]
+        },
+        {
+          "enunciado": "What is the only letter not used in any chemical element symbol?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The letter J does not appear in any official chemical element symbol.",
+          "respuestas": [
+            { "texto": "J" },
+            { "texto": "Q" },
+            { "texto": "X" },
+            { "texto": "W" }
+          ]
+        },
+        {
+          "enunciado": "What is the term for the study of flags?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "Vexillology is the study of flags and their symbolism.",
+          "respuestas": [
+            { "texto": "Philately" },
+            { "texto": "Cartography" },
+            { "texto": "Numismatics" },
+            { "texto": "Vexillology" }
+          ]
+        },
+        {
+          "enunciado": "What is the official term for a fear of the number 13?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Triskaidekaphobia is the fear or superstition surrounding the number 13.",
+          "respuestas": [
+            { "texto": "Hexakosioihexekontahexaphobia" },
+            { "texto": "Arithmophobia" },
+            { "texto": "Triskaidekaphobia" },
+            { "texto": "Numerophobia" }
+          ]
+        }
+      ]
     }
   ]
 }
