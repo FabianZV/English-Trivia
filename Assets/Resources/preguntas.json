@@ -26,6 +26,160 @@
           ]
         },
         {
+          "enunciado": "Which shape has no corners?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "A circle is round and has no corners.",
+          "respuestas": [
+            { "texto": "Square" },
+            { "texto": "Circle" },
+            { "texto": "Triangle" },
+            { "texto": "Rectangle" }
+          ]
+        },
+        {
+          "enunciado": "Which country is famous for the pyramids of Giza?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Egypt is famous for the pyramids of Giza.",
+          "respuestas": [
+            { "texto": "Egypt" },
+            { "texto": "Mexico" },
+            { "texto": "Peru" },
+            { "texto": "China" }
+          ]
+        },
+        {
+          "enunciado": "Which animal is known for having a shell?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Turtles have shells that protect their bodies.",
+          "respuestas": [
+            { "texto": "Dog" },
+            { "texto": "Turtle" },
+            { "texto": "Horse" },
+            { "texto": "Lion" }
+          ]
+        },
+        {
+          "enunciado": "Which country is famous for the Eiffel Tower?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "France is famous for the Eiffel Tower in Paris.",
+          "respuestas": [
+            { "texto": "Italy" },
+            { "texto": "France" },
+            { "texto": "Germany" },
+            { "texto": "Spain" }
+          ]
+        },
+        {
+          "enunciado": "Which animal is known for hopping?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Kangaroos are known for hopping on their strong legs.",
+          "respuestas": [
+            { "texto": "Dog" },
+            { "texto": "Cat" },
+            { "texto": "Kangaroo" },
+            { "texto": "Elephant" }
+          ]
+        },
+        {
+          "enunciado": "Which shape has five sides?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "A pentagon has five sides.",
+          "respuestas": [
+            { "texto": "Triangle" },
+            { "texto": "Square" },
+            { "texto": "Circle" },
+            { "texto": "Pentagon" }
+          ]
+        },
+        {
+          "enunciado": "Which animal is known for laying eggs?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Hens lay eggs, which are commonly eaten by humans.",
+          "respuestas": [
+            { "texto": "Hen" },
+            { "texto": "Cow" },
+            { "texto": "Dog" },
+            { "texto": "Horse" }
+          ]
+        },
+        {
+          "enunciado": "Which country is famous for samba music?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Brazil is famous for samba music and dance.",
+          "respuestas": [
+            { "texto": "Argentina" },
+            { "texto": "Brazil" },
+            { "texto": "Spain" },
+            { "texto": "Portugal" }
+          ]
+        },
+        {
+          "enunciado": "Which fruit is used to make lemonade?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Lemons are used to make lemonade.",
+          "respuestas": [
+            { "texto": "Lemon" },
+            { "texto": "Orange" },
+            { "texto": "Apple" },
+            { "texto": "Pear" }
+          ]
+        },
+        {
+          "enunciado": "Which fruit is green and often used in salads?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "Cucumbers are green fruits often used in salads.",
+          "respuestas": [
+            { "texto": "Apple" },
+            { "texto": "Pear" },
+            { "texto": "Grapes" },
+            { "texto": "Cucumber" }
+          ]
+        },
+        {
+          "enunciado": "Which country is famous for the Colosseum?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Italy is famous for the Colosseum in Rome.",
+          "respuestas": [
+            { "texto": "Spain" },
+            { "texto": "France" },
+            { "texto": "Italy" },
+            { "texto": "Greece" }
+          ]
+        },
+        {
+          "enunciado": "Which country is famous for the Statue of Liberty?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The Statue of Liberty is located in the United States.",
+          "respuestas": [
+            { "texto": "United States" },
+            { "texto": "France" },
+            { "texto": "England" },
+            { "texto": "Canada" }
+          ]
+        },
+        {
+          "enunciado": "Which famous landmark is located in New York City?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "The Statue of Liberty is a famous landmark in New York City.",
+          "respuestas": [
+            { "texto": "Eiffel Tower" },
+            { "texto": "Statue of Liberty" },
+            { "texto": "Big Ben" },
+            { "texto": "Colosseum" }
+          ]
+        },
+        {
+          "enunciado": "Which sport is played with a net and a ball and is popular on beaches?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Volleyball is played with a net and ball, often on beaches.",
+          "respuestas": [
+            { "texto": "Soccer" },
+            { "texto": "Basketball" },
+            { "texto": "Volleyball" },
+            { "texto": "Tennis" }
+          ]
+        },
+        {
           "enunciado": "How many legs does a spider have?",
           "respuestaCorrecta": 2,
           "informacionComplementaria": "Spiders have 8 legs.",
@@ -226,6 +380,94 @@
             { "texto": "95°C" },
             { "texto": "100°C" },
             { "texto": "110°C" }
+          ]
+        },
+        {
+          "enunciado": "Who was the first man to walk on the Moon?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Neil Armstrong was the first man to walk on the Moon in 1969.",
+          "respuestas": [
+            { "texto": "Neil Armstrong" },
+            { "texto": "Buzz Aldrin" },
+            { "texto": "Yuri Gagarin" },
+            { "texto": "John Glenn" }
+          ]
+        },
+        {
+          "enunciado": "Which country is famous for flamenco dancing?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Spain is famous for flamenco dancing, especially in Andalusia.",
+          "respuestas": [
+            { "texto": "Italy" },
+            { "texto": "Portugal" },
+            { "texto": "Spain" },
+            { "texto": "France" }
+          ]
+        },
+        {
+          "enunciado": "Which ocean is located on the east coast of the United States?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The Atlantic Ocean borders the east coast of the United States.",
+          "respuestas": [
+            { "texto": "Atlantic Ocean" },
+            { "texto": "Pacific Ocean" },
+            { "texto": "Indian Ocean" },
+            { "texto": "Arctic Ocean" }
+          ]
+        },
+        {
+          "enunciado": "Who discovered America in 1492?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Christopher Columbus reached the Americas in 1492.",
+          "respuestas": [
+            { "texto": "Amerigo Vespucci" },
+            { "texto": "Christopher Columbus" },
+            { "texto": "Ferdinand Magellan" },
+            { "texto": "Marco Polo" }
+          ]
+        },
+        {
+          "enunciado": "Which instrument has black and white keys?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The piano has black and white keys.",
+          "respuestas": [
+            { "texto": "Guitar" },
+            { "texto": "Violin" },
+            { "texto": "Piano" },
+            { "texto": "Drums" }
+          ]
+        },
+        {
+          "enunciado": "Which famous scientist is known for the theory of evolution?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Charles Darwin is known for the theory of evolution by natural selection.",
+          "respuestas": [
+            { "texto": "Isaac Newton" },
+            { "texto": "Albert Einstein" },
+            { "texto": "Charles Darwin" },
+            { "texto": "Gregor Mendel" }
+          ]
+        },
+        {
+          "enunciado": "What is the value of π approximately?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "π is approximately 3.1416.",
+          "respuestas": [
+            { "texto": "2.71" },
+            { "texto": "1.41" },
+            { "texto": "3.14" },
+            { "texto": "1.73" }
+          ]
+        },
+        {
+          "enunciado": "What is the opposite of multiplication?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The opposite operation of multiplication is division.",
+          "respuestas": [
+            { "texto": "Addition" },
+            { "texto": "Subtraction" },
+            { "texto": "Division" },
+            { "texto": "Exponentiation" }
           ]
         },
         {
@@ -510,6 +752,28 @@
           ]
         },
         {
+          "enunciado": "What is the solution to 3x - 9 = 0?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "3x - 9 = 0 → x = 3.",
+          "respuestas": [
+            { "texto": "3" },
+            { "texto": "9" },
+            { "texto": "0" },
+            { "texto": "-3" }
+          ]
+        },
+        {
+          "enunciado": "What is the value of √81?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "√81 = 9.",
+          "respuestas": [
+            { "texto": "8" },
+            { "texto": "9" },
+            { "texto": "7" },
+            { "texto": "10" }
+          ]
+        },
+        {
           "enunciado": "In Greek mythology, who was the god of the sea?",
           "respuestaCorrecta": 2,
           "informacionComplementaria": "Poseidon was the god of the sea and earthquakes in Greek mythology.",
@@ -633,6 +897,39 @@
             { "texto": "1988" },
             { "texto": "1991" },
             { "texto": "1979" }
+          ]
+        },
+        {
+          "enunciado": "Which ancient civilization built the city of Petra?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The Nabataeans built Petra in present-day Jordan around the 4th century BC.",
+          "respuestas": [
+            { "texto": "Romans" },
+            { "texto": "Greeks" },
+            { "texto": "Nabataeans" },
+            { "texto": "Persians" }
+          ]
+        },
+        {
+          "enunciado": "Which African country was never colonized by a European power?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Ethiopia is one of the few African countries never colonized.",
+          "respuestas": [
+            { "texto": "Egypt" },
+            { "texto": "Liberia" },
+            { "texto": "Ethiopia" },
+            { "texto": "Morocco" }
+          ]
+        },
+        {
+          "enunciado": "What is the value of 12 × 13?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "12 × 13 = 156.",
+          "respuestas": [
+            { "texto": "144" },
+            { "texto": "169" },
+            { "texto": "156" },
+            { "texto": "166" }
           ]
         },
         {
