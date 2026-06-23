@@ -26,6 +26,50 @@
           ]
         },
         {
+          "enunciado": "Which fruit has its seeds on the outside?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "A strawberry has around 200 seeds on its exterior.",
+          "respuestas": [
+            { "texto": "Raspberry" },
+            { "texto": "Blackberry" },
+            { "texto": "Strawberry" },
+            { "texto": "Blueberry" }
+          ]
+        },
+        {
+          "enunciado": "Which star is at the center of our Solar System?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The Sun is the center of the Solar System.",
+          "respuestas": [
+            { "texto": "Sun" },
+            { "texto": "Polaris" },
+            { "texto": "Sirius" },
+            { "texto": "Betelgeuse" }
+          ]
+        },
+        {
+          "enunciado": "What do fish use to breathe underwater?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Fish use gills to extract oxygen from water.",
+          "respuestas": [
+            { "texto": "Gills" },
+            { "texto": "Lungs" },
+            { "texto": "Nose" },
+            { "texto": "Skin" }
+          ]
+        },
+        {
+          "enunciado": "Which is a primary color?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Red is a primary color.",
+          "respuestas": [
+            { "texto": "Red" },
+            { "texto": "Pink" },
+            { "texto": "Brown" },
+            { "texto": "Gray" }
+          ]
+        },
+        {
           "enunciado": "Which shape has no corners?",
           "respuestaCorrecta": 1,
           "informacionComplementaria": "A circle is round and has no corners.",
@@ -268,17 +312,6 @@
           ]
         },
         {
-          "enunciado": "Which country is famous for the Statue of Liberty?",
-          "respuestaCorrecta": 0,
-          "informacionComplementaria": "The Statue of Liberty is located in the United States.",
-          "respuestas": [
-            { "texto": "United States" },
-            { "texto": "France" },
-            { "texto": "England" },
-            { "texto": "Canada" }
-          ]
-        },
-        {
           "enunciado": "Which animal is the largest mammal in the world?",
           "respuestaCorrecta": 3,
           "informacionComplementaria": "The blue whale is the largest mammal and the largest animal known to have ever existed on Earth.",
@@ -402,6 +435,116 @@
             { "texto": "Portugal" },
             { "texto": "Spain" },
             { "texto": "France" }
+          ]
+        },
+        {
+          "enunciado": "What is the function of a keyboard?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "A keyboard is used to input text into a computer.",
+          "respuestas": [
+            { "texto": "Display images" },
+            { "texto": "Store data" },
+            { "texto": "Input text" },
+            { "texto": "Cool the system" }
+          ]
+        },
+        {
+          "enunciado": "What is the capital of Italy?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Rome is the capital of Italy.",
+          "respuestas": [
+            { "texto": "Madrid" },
+            { "texto": "Athens" },
+            { "texto": "Rome" },
+            { "texto": "Lisbon" }
+          ]
+        },
+        {
+          "enunciado": "How many letters are there in the English alphabet?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "The English alphabet contains 26 letters.",
+          "respuestas": [
+            { "texto": "24" },
+            { "texto": "28" },
+            { "texto": "30" },
+            { "texto": "26" }
+          ]
+        },
+        {
+          "enunciado": "What is the official language of Brazil?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Brazil is the largest Portuguese-speaking country in the world.",
+          "respuestas": [
+            { "texto": "Portuguese" },
+            { "texto": "Spanish" },
+            { "texto": "French" },
+            { "texto": "English" }
+          ]
+        },
+        {
+          "enunciado": "What is the longest bone in the human body?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "The femur is the strongest and longest bone in the body.",
+          "respuestas": [
+            { "texto": "Tibia" },
+            { "texto": "Femur" },
+            { "texto": "Humerus" },
+            { "texto": "Radius" }
+          ]
+        },
+        {
+          "enunciado": "What color is the Sun actually when viewed from space?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The Sun emits all visible wavelengths and appears white from space.",
+          "respuestas": [
+            { "texto": "Yellow" },
+            { "texto": "Orange" },
+            { "texto": "White" },
+            { "texto": "Blue" }
+          ]
+        },
+        {
+          "enunciado": "What is the smallest prime number?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "A prime number has exactly two positive divisors; 2 is the smallest.",
+          "respuestas": [
+            { "texto": "1" },
+            { "texto": "2" },
+            { "texto": "3" },
+            { "texto": "5" }
+          ]
+        },
+        {
+          "enunciado": "Which famous number sequence begins 0, 1, 1, 2, 3, 5, 8...?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Each Fibonacci number is the sum of the previous two.",
+          "respuestas": [
+            { "texto": "Lucas Sequence" },
+            { "texto": "Fibonacci Sequence" },
+            { "texto": "Prime Numbers" },
+            { "texto": "Catalan Numbers" }
+          ]
+        },
+        {
+          "enunciado": "How many ribs does a typical human have?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Most humans have 24 ribs arranged in 12 pairs.",
+          "respuestas": [
+            { "texto": "22" },
+            { "texto": "24" },
+            { "texto": "26" },
+            { "texto": "28" }
+          ]
+        },
+        {
+          "enunciado": "What is the smallest country in the world?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Vatican City covers only about 0.49 square kilometers.",
+          "respuestas": [
+            { "texto": "Monaco" },
+            { "texto": "Vatican City" },
+            { "texto": "San Marino" },
+            { "texto": "Liechtenstein" }
           ]
         },
         {
@@ -592,17 +735,6 @@
           ]
         },
         {
-          "enunciado": "What is the smallest country in the world?",
-          "respuestaCorrecta": 1,
-          "informacionComplementaria": "Vatican City is the smallest country in the world, with an area of less than 1 square kilometer.",
-          "respuestas": [
-            { "texto": "Monaco" },
-            { "texto": "Vatican City" },
-            { "texto": "San Marino" },
-            { "texto": "Liechtenstein" }
-          ]
-        },
-        {
           "enunciado": "What is the most abundant gas in Earth’s atmosphere?",
           "respuestaCorrecta": 2,
           "informacionComplementaria": "Nitrogen makes up about 78% of Earth's atmosphere.",
@@ -774,6 +906,83 @@
           ]
         },
         {
+          "enunciado": "Which language has the most native speakers?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Mandarin Chinese has the most native speakers.",
+          "respuestas": [
+            { "texto": "English" },
+            { "texto": "Mandarin Chinese" },
+            { "texto": "Spanish" },
+            { "texto": "Hindi" }
+          ]
+        },
+        {
+          "enunciado": "What is the speed of light approximately?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Light travels at about 300,000 km/s.",
+          "respuestas": [
+            { "texto": "150,000 km/s" },
+            { "texto": "300,000 km/s" },
+            { "texto": "1,000 km/s" },
+            { "texto": "30,000 km/s" }
+          ]
+        },
+        {
+          "enunciado": "What is the main function of RAM in a computer?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "RAM stores temporary data for active processes.",
+          "respuestas": [
+            { "texto": "Permanent storage" },
+            { "texto": "Internet access" },
+            { "texto": "Graphics rendering only" },
+            { "texto": "Temporary memory" }
+          ]
+        },
+        {
+          "enunciado": "Which company created Windows operating system?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Microsoft developed Windows.",
+          "respuestas": [
+            { "texto": "Apple" },
+            { "texto": "Microsoft" },
+            { "texto": "Google" },
+            { "texto": "IBM" }
+          ]
+        },
+        {
+          "enunciado": "What is the currency of Japan?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Japan uses the yen.",
+          "respuestas": [
+            { "texto": "Won" },
+            { "texto": "Yen" },
+            { "texto": "Dollar" },
+            { "texto": "Euro" }
+          ]
+        },
+        {
+          "enunciado": "What does AI stand for?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "AI means Artificial Intelligence.",
+          "respuestas": [
+            { "texto": "Auto Input" },
+            { "texto": "Advanced Integration" },
+            { "texto": "Artificial Intelligence" },
+            { "texto": "Analog Interface" }
+          ]
+        },
+        {
+          "enunciado": "What is the capital of Greece?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Athens is the capital of Greece.",
+          "respuestas": [
+            { "texto": "Rome" },
+            { "texto": "Istanbul" },
+            { "texto": "Athens" },
+            { "texto": "Cairo" }
+          ]
+        },
+        {
           "enunciado": "In Greek mythology, who was the god of the sea?",
           "respuestaCorrecta": 2,
           "informacionComplementaria": "Poseidon was the god of the sea and earthquakes in Greek mythology.",
@@ -793,6 +1002,39 @@
             { "texto": "O+" },
             { "texto": "O−" },
             { "texto": "A−" }
+          ]
+        },
+        {
+          "enunciado": "Which mathematical constant begins 2.71828...?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Euler's number e is approximately 2.71828.",
+          "respuestas": [
+            { "texto": "π" },
+            { "texto": "e" },
+            { "texto": "φ" },
+            { "texto": "τ" }
+          ]
+        },
+        {
+          "enunciado": "Which country invented paper money?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Paper money first appeared in China during the Tang and Song dynasties.",
+          "respuestas": [
+            { "texto": "India" },
+            { "texto": "Persia" },
+            { "texto": "China" },
+            { "texto": "Egypt" }
+          ]
+        },
+        {
+          "enunciado": "Which language has no known living native speakers?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Latin remains influential but has no native speakers today.",
+          "respuestas": [
+            { "texto": "Ancient Greek" },
+            { "texto": "Latin" },
+            { "texto": "Sanskrit" },
+            { "texto": "Hebrew" }
           ]
         },
         {
@@ -897,6 +1139,116 @@
             { "texto": "1988" },
             { "texto": "1991" },
             { "texto": "1979" }
+          ]
+        },
+        {
+          "enunciado": "What does RAM stand for?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "RAM stands for Random Access Memory.",
+          "respuestas": [
+            { "texto": "Random Access Memory" },
+            { "texto": "Read Active Memory" },
+            { "texto": "Run Access Module" },
+            { "texto": "Rapid Application Mode" }
+          ]
+        },
+        {
+          "enunciado": "What was Google's original name?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Google was originally called 'BackRub' because it analyzed backlinks.",
+          "respuestas": [
+            { "texto": "SearchNet" },
+            { "texto": "BackRub" },
+            { "texto": "PageRank" },
+            { "texto": "WebCrawler" }
+          ]
+        },
+        {
+          "enunciado": "What is the smallest unit of information in computing?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "A bit can have a value of either 0 or 1.",
+          "respuestas": [
+            { "texto": "Byte" },
+            { "texto": "Nibble" },
+            { "texto": "Bit" },
+            { "texto": "Word" }
+          ]
+        },
+        {
+          "enunciado": "What was the name of the first artificial satellite launched into space?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Sputnik 1 was launched by the Soviet Union in 1957.",
+          "respuestas": [
+            { "texto": "Explorer 1" },
+            { "texto": "Sputnik 1" },
+            { "texto": "Vostok 1" },
+            { "texto": "Luna 1" }
+          ]
+        },
+        {
+          "enunciado": "What is the largest moon of Saturn?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Titan is larger than the planet Mercury.",
+          "respuestas": [
+            { "texto": "Enceladus" },
+            { "texto": "Mimas" },
+            { "texto": "Titan" },
+            { "texto": "Rhea" }
+          ]
+        },
+        {
+          "enunciado": "Which ocean contains the Bermuda Triangle?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The Bermuda Triangle lies in the western North Atlantic Ocean.",
+          "respuestas": [
+            { "texto": "Atlantic Ocean" },
+            { "texto": "Pacific Ocean" },
+            { "texto": "Indian Ocean" },
+            { "texto": "Arctic Ocean" }
+          ]
+        },
+        {
+          "enunciado": "Which country has no rivers at all?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "Saudi Arabia has no permanent rivers.",
+          "respuestas": [
+            { "texto": "Qatar" },
+            { "texto": "Bahrain" },
+            { "texto": "Kuwait" },
+            { "texto": "Saudi Arabia" }
+          ]
+        },
+        {
+          "enunciado": "What is the SI (International System of Units) unit of electrical resistance?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The ohm (Ω) is the SI unit of electrical resistance, named after German physicist Georg Ohm.",
+          "respuestas": [
+            { "texto": "Ohm" },
+            { "texto": "Volt" },
+            { "texto": "Ampere" },
+            { "texto": "Watt" }
+          ]
+        },
+        {
+          "enunciado": "Which language is written from right to left?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Arabic is primarily written from right to left.",
+          "respuestas": [
+            { "texto": "Japanese" },
+            { "texto": "Arabic" },
+            { "texto": "Hindi" },
+            { "texto": "Russian" }
+          ]
+        },
+        {
+          "enunciado": "Which planet was discovered using mathematical predictions before being directly observed?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "Neptune's existence was predicted based on irregularities in Uranus's orbit.",
+          "respuestas": [
+            { "texto": "Venus" },
+            { "texto": "Mars" },
+            { "texto": "Saturn" },
+            { "texto": "Neptune" }
           ]
         },
         {
@@ -1254,6 +1606,94 @@
             { "texto": "Arithmophobia" },
             { "texto": "Triskaidekaphobia" },
             { "texto": "Numerophobia" }
+          ]
+        },
+        {
+          "enunciado": "What was the first domain name ever registered?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "symbolics.com was registered on March 15, 1985.",
+          "respuestas": [
+            { "texto": "internet.com" },
+            { "texto": "ibm.com" },
+            { "texto": "mit.edu" },
+            { "texto": "symbolics.com" }
+          ]
+        },
+        {
+          "enunciado": "Which programming language was originally called 'Oak'?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Java was initially named Oak by James Gosling.",
+          "respuestas": [
+            { "texto": "C++" },
+            { "texto": "Python" },
+            { "texto": "Java" },
+            { "texto": "Ruby" }
+          ]
+        },
+        {
+          "enunciado": "Which country has the most official languages?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Zimbabwe recognizes 16 official languages.",
+          "respuestas": [
+            { "texto": "Zimbabwe" },
+            { "texto": "India" },
+            { "texto": "South Africa" },
+            { "texto": "Switzerland" }
+          ]
+        },
+        {
+          "enunciado": "Which mathematician invented the Cartesian coordinate system?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "René Descartes developed the coordinate system that bears his name.",
+          "respuestas": [
+            { "texto": "Euclid" },
+            { "texto": "Pascal" },
+            { "texto": "René Descartes" },
+            { "texto": "Leibniz" }
+          ]
+        },
+        {
+          "enunciado": "Which scientist discovered pulsars?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Jocelyn Bell Burnell discovered the first pulsar in 1967.",
+          "respuestas": [
+            { "texto": "Jocelyn Bell Burnell" },
+            { "texto": "Stephen Hawking" },
+            { "texto": "Carl Sagan" },
+            { "texto": "Edwin Hubble" }
+          ]
+        },
+        {
+          "enunciado": "How many sides does a regular icosagon have?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "An icosagon is a polygon with 20 sides.",
+          "respuestas": [
+            { "texto": "18" },
+            { "texto": "12" },
+            { "texto": "20" },
+            { "texto": "24" }
+          ]
+        },
+        {
+          "enunciado": "What is the oldest known board game?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "The Royal Game of Ur dates back over 4,500 years.",
+          "respuestas": [
+            { "texto": "Chess" },
+            { "texto": "Royal Game of Ur" },
+            { "texto": "Go" },
+            { "texto": "Senet" }
+          ]
+        },
+        {
+          "enunciado": "Who was the first person to circumnavigate the globe?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Juan Sebastián Elcano completed the first circumnavigation after Magellan's death.",
+          "respuestas": [
+            { "texto": "Ferdinand Magellan" },
+            { "texto": "Juan Sebastián Elcano" },
+            { "texto": "Christopher Columbus" },
+            { "texto": "Vasco da Gama" }
           ]
         }
       ]
