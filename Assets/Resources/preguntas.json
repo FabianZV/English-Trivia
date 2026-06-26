@@ -71,7 +71,7 @@
         },
         {
           "enunciado": "What do we use to cut paper?",
-          "respuestaCorrecta": 2,
+          "respuestaCorrecta": 1,
           "informacionComplementaria": "Scissors are used to cut paper and other materials.",
           "respuestas": [
             { "texto": "Fork" },
@@ -86,14 +86,14 @@
           "informacionComplementaria": "The Sun is the star at the center of our solar system and provides light and heat to Earth.",
           "respuestas": [
             { "texto": "Moon" },
-            { "texto": "Sun" },
             { "texto": "Mars" },
+            { "texto": "Sun" },
             { "texto": "Cloud" }
           ]
         },
         {
           "enunciado": "What do you usually use to write on paper?",
-          "respuestaCorrecta": 2,
+          "respuestaCorrecta": 1,
           "informacionComplementaria": "A pen is commonly used for writing on paper in school and work.",
           "respuestas": [
             { "texto": "Spoon" },
@@ -104,7 +104,7 @@
         },
         {
           "enunciado": "What part of a plant is typically green and helps it grow toward light?",
-          "respuestaCorrecta": 2,
+          "respuestaCorrecta": 1,
           "informacionComplementaria": "The leaf is green because it contains chlorophyll, which helps plants make food using sunlight.",
           "respuestas": [
             { "texto": "Root" },
@@ -115,7 +115,7 @@
         },
         {
           "enunciado": "What color do you get when you mix red and white?",
-          "respuestaCorrecta": 1,
+          "respuestaCorrecta": 0,
           "informacionComplementaria": "Mixing red and white paint creates pink.",
           "respuestas": [
             { "texto": "Pink" },
@@ -1093,6 +1093,17 @@
           ]
         },
         {
+          "enunciado": "Which gland in the human body produces insulin?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The pancreas produces insulin, which regulates blood sugar levels. The thyroid, adrenal glands, and pituitary gland are other major endocrine glands, but none of them produce insulin.",
+          "respuestas": [
+            { "texto": "Thyroid" },
+            { "texto": "Adrenal gland" },
+            { "texto": "Pancreas" },
+            { "texto": "Pituitary gland" }
+          ]
+        },
+        {
           "enunciado": "Which vitamin is produced by the human body when exposed to sunlight?",
           "respuestaCorrecta": 1,
           "informacionComplementaria": "The human body produces Vitamin D when the skin is exposed to sunlight.",
@@ -1310,17 +1321,6 @@
             { "texto": "Gold" },
             { "texto": "Iron" },
             { "texto": "Quartz" }
-          ]
-        },
-        {
-          "enunciado": "What is the main gas found in Earth's atmosphere?",
-          "respuestaCorrecta": 2,
-          "informacionComplementaria": "Nitrogen makes up about 78% of Earth's atmosphere.",
-          "respuestas": [
-            { "texto": "Oxygen" },
-            { "texto": "Carbon dioxide" },
-            { "texto": "Nitrogen" },
-            { "texto": "Hydrogen" }
           ]
         },
         {
@@ -1736,14 +1736,14 @@
           ]
         },
         {
-          "enunciado": "Which African country was never colonized by a European power?",
-          "respuestaCorrecta": 2,
-          "informacionComplementaria": "Ethiopia is one of the few African countries never colonized.",
+          "enunciado": "Which ancient civilization built Machu Picchu?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The Inca civilization constructed Machu Picchu in the 15th century as a royal estate.",
           "respuestas": [
-            { "texto": "Egypt" },
-            { "texto": "Liberia" },
-            { "texto": "Ethiopia" },
-            { "texto": "Morocco" }
+            { "texto": "Inca" },
+            { "texto": "Maya" },
+            { "texto": "Aztec" },
+            { "texto": "Olmec" }
           ]
         },
         {
@@ -1967,25 +1967,25 @@
           ]
         },
         {
-          "enunciado": "Which video game console was the first to use CDs instead of cartridges?",
-          "respuestaCorrecta": 1,
-          "informacionComplementaria": "Sony’s PlayStation (1994) was the first major console to use CDs.",
+          "enunciado": "Which company introduced the first portable music player?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Sony launched the Walkman in 1979, revolutionizing personal music listening.",
           "respuestas": [
-            { "texto": "Sega Genesis" },
-            { "texto": "PlayStation" },
-            { "texto": "Nintendo 64" },
-            { "texto": "Dreamcast" }
+            { "texto": "Apple" },
+            { "texto": "Panasonic" },
+            { "texto": "Sony" },
+            { "texto": "Philips" }
           ]
         },
         {
-          "enunciado": "Which video game was the first to sell over 100 million copies?",
-          "respuestaCorrecta": 3,
-          "informacionComplementaria": "Minecraft became the first video game to surpass 100 million copies sold.",
+          "enunciado": "Which video game was the first single title to sell over 100 million copies?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Minecraft officially surpassed 100 million copies sold in 2016, making it the first single video game title to reach this milestone. Tetris had sold more overall if counting multiple versions, but not as a single unified release.",
           "respuestas": [
+            { "texto": "Minecraft" },
             { "texto": "Tetris" },
             { "texto": "Grand Theft Auto V" },
-            { "texto": "Super Mario Bros." },
-            { "texto": "Minecraft" }
+            { "texto": "Wii Sports" }
           ]
         },
         {
@@ -2049,17 +2049,6 @@
           ]
         },
         {
-          "enunciado": "Which scientist discovered the neutron in 1932?",
-          "respuestaCorrecta": 2,
-          "informacionComplementaria": "James Chadwick discovered the neutron in 1932, earning the Nobel Prize in Physics.",
-          "respuestas": [
-            { "texto": "Ernest Rutherford" },
-            { "texto": "Niels Bohr" },
-            { "texto": "James Chadwick" },
-            { "texto": "Enrico Fermi" }
-          ]
-        },
-        {
           "enunciado": "Which scholar is credited with compiling the first comprehensive dictionary of the English language in 1755?",
           "respuestaCorrecta": 2,
           "informacionComplementaria": "Samuel Johnson published 'A Dictionary of the English Language' in 1755, a landmark in English lexicography.",
@@ -2068,6 +2057,28 @@
             { "texto": "John Wycliffe" },
             { "texto": "Samuel Johnson" },
             { "texto": "William Caxton" }
+          ]
+        },
+        {
+          "enunciado": "In which year was the existence of the Higgs boson particle experimentally confirmed?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Scientists at CERN confirmed the Higgs boson's existence in 2012 using the Large Hadron Collider.",
+          "respuestas": [
+            { "texto": "2008" },
+            { "texto": "2010" },
+            { "texto": "2012" },
+            { "texto": "2015" }
+          ]
+        },
+        {
+          "enunciado": "Which chemist is credited with formulating the law of conservation of mass?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Antoine Lavoisier established that mass is neither created nor destroyed in chemical reactions, earning him the title 'father of modern chemistry'. Dalton, Priestley, and Boyle were contemporaries or near-contemporaries working on related chemical principles.",
+          "respuestas": [
+            { "texto": "John Dalton" },
+            { "texto": "Joseph Priestley" },
+            { "texto": "Antoine Lavoisier" },
+            { "texto": "Robert Boyle" }
           ]
         },
         {
@@ -2189,17 +2200,6 @@
             { "texto": "Gutenberg Bible" },
             { "texto": "Codex Leicester" },
             { "texto": "Florentine Codex" }
-          ]
-        },
-        {
-          "enunciado": "Which scientist discovered the circulation of blood in 1628?",
-          "respuestaCorrecta": 1,
-          "informacionComplementaria": "William Harvey described systemic circulation and the properties of blood in 1628.",
-          "respuestas": [
-            { "texto": "Andreas Vesalius" },
-            { "texto": "William Harvey" },
-            { "texto": "Hippocrates" },
-            { "texto": "Galen" }
           ]
         },
         {
@@ -2346,9 +2346,9 @@
           ]
         },
         {
-          "enunciado": "What is the only letter not used in any chemical element symbol?",
+          "enunciado": "Which letter not used in any chemical element symbol?",
           "respuestaCorrecta": 0,
-          "informacionComplementaria": "The letter J does not appear in any official chemical element symbol.",
+          "informacionComplementaria": "The letter J is not used in any official chemical element symbol. The letter Q appears in temporary placeholder names but not in permanent symbols.",
           "respuestas": [
             { "texto": "J" },
             { "texto": "Q" },
