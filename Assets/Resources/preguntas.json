@@ -1005,6 +1005,17 @@
           ]
         },
         {
+          "enunciado": "Which ancient wonder was built in Olympia, Greece?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The Statue of Zeus at Olympia was one of the Seven Wonders of the Ancient World.",
+          "respuestas": [
+            { "texto": "Temple of Artemis" },
+            { "texto": "Colossus of Rhodes" },
+            { "texto": "Statue of Zeus at Olympia" },
+            { "texto": "Mausoleum at Halicarnassus" }
+          ]
+        },
+        {
           "enunciado": "What is the solution to 3x - 9 = 0?",
           "respuestaCorrecta": 0,
           "informacionComplementaria": "3x - 9 = 0 → x = 3.",
@@ -1785,6 +1796,17 @@
           ]
         },
         {
+          "enunciado": "Which scientist discovered the neutron in 1932?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "James Chadwick discovered the neutron in 1932, earning the Nobel Prize in Physics.",
+          "respuestas": [
+            { "texto": "Ernest Rutherford" },
+            { "texto": "Niels Bohr" },
+            { "texto": "James Chadwick" },
+            { "texto": "Enrico Fermi" }
+          ]
+        },
+        {
           "enunciado": "Which element was first artificially created in a laboratory?",
           "respuestaCorrecta": 1,
           "informacionComplementaria": "Technetium was the first artificially produced element, discovered in 1937.",
@@ -1796,6 +1818,50 @@
           ]
         },
         {
+          "enunciado": "Who invented the first electric guitar?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "George Beauchamp invented the first electric guitar in 1931.",
+          "respuestas": [
+            { "texto": "Les Paul" },
+            { "texto": "George Beauchamp" },
+            { "texto": "Leo Fender" },
+            { "texto": "Adolph Rickenbacker" }
+          ]
+        },
+        {
+          "enunciado": "Which empire built the Library of Alexandria?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The Ptolemaic dynasty in Egypt established the Library of Alexandria in the 3rd century BC.",
+          "respuestas": [
+            { "texto": "Ptolemaic Dynasty" },
+            { "texto": "Roman Empire" },
+            { "texto": "Byzantine Empire" },
+            { "texto": "Ottoman Empire" }
+          ]
+        },
+        {
+          "enunciado": "Which author created the character Harry Potter?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "J.K. Rowling created Harry Potter, first appearing in 'Harry Potter and the Philosopher’s Stone' (1997).",
+          "respuestas": [
+            { "texto": "C.S. Lewis" },
+            { "texto": "J.K. Rowling" },
+            { "texto": "J.R.R. Tolkien" },
+            { "texto": "Philip Pullman" }
+          ]
+        },
+        {
+          "enunciado": "Who invented the first successful airplane?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The Wright brothers, Orville and Wilbur, achieved the first powered flight in 1903.",
+          "respuestas": [
+            { "texto": "Wright Brothers" },
+            { "texto": "Alberto Santos-Dumont" },
+            { "texto": "Otto Lilienthal" },
+            { "texto": "Glenn Curtiss" }
+          ]
+        },
+        {
           "enunciado": "Which country hosted the first FIFA World Cup in 1930?",
           "respuestaCorrecta": 0,
           "informacionComplementaria": "Uruguay hosted and won the first FIFA World Cup in 1930.",
@@ -1804,6 +1870,83 @@
             { "texto": "Brazil" },
             { "texto": "Italy" },
             { "texto": "Argentina" }
+          ]
+        },
+        {
+          "enunciado": "Which scientist discovered pulsars?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Jocelyn Bell Burnell discovered the first pulsar in 1967.",
+          "respuestas": [
+            { "texto": "Stephen Hawking" },
+            { "texto": "Jocelyn Bell Burnell" },
+            { "texto": "Carl Sagan" },
+            { "texto": "Edwin Hubble" }
+          ]
+        },
+        {
+          "enunciado": "Which physicist introduced the concept of 'quanta' in 1900?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Max Planck introduced the idea of energy quanta, laying the foundation for quantum mechanics.",
+          "respuestas": [
+            { "texto": "Max Planck" },
+            { "texto": "Albert Einstein" },
+            { "texto": "Niels Bohr" },
+            { "texto": "Werner Heisenberg" }
+          ]
+        },
+        {
+          "enunciado": "Which medieval manuscript is considered the most expensive book in the world?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The Codex Leicester by Leonardo da Vinci is one of the most valuable manuscripts, purchased by Bill Gates in 1994.",
+          "respuestas": [
+            { "texto": "Book of Kells" },
+            { "texto": "Gutenberg Bible" },
+            { "texto": "Codex Leicester" },
+            { "texto": "Florentine Codex" }
+          ]
+        },
+        {
+          "enunciado": "Which scientist discovered the circulation of blood in 1628?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "William Harvey described systemic circulation and the properties of blood in 1628.",
+          "respuestas": [
+            { "texto": "Andreas Vesalius" },
+            { "texto": "William Harvey" },
+            { "texto": "Hippocrates" },
+            { "texto": "Galen" }
+          ]
+        },
+        {
+          "enunciado": "Which scientist discovered the circulation of sap in plants?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Stephen Hales demonstrated the movement of sap in plants in the 18th century.",
+          "respuestas": [
+            { "texto": "Robert Hooke" },
+            { "texto": "Stephen Hales" },
+            { "texto": "Carl Linnaeus" },
+            { "texto": "Joseph Priestley" }
+          ]
+        },
+        {
+          "enunciado": "Which empire built the Taj Mahal?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "The Mughal Empire built the Taj Mahal in the 17th century under Emperor Shah Jahan.",
+          "respuestas": [
+            { "texto": "Ottoman Empire" },
+            { "texto": "Mughal Empire" },
+            { "texto": "Persian Empire" },
+            { "texto": "British Empire" }
+          ]
+        },
+        {
+          "enunciado": "Which empire built the Forbidden City in Beijing?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The Ming Dynasty constructed the Forbidden City in the early 15th century.",
+          "respuestas": [
+            { "texto": "Ming Dynasty" },
+            { "texto": "Qing Dynasty" },
+            { "texto": "Han Dynasty" },
+            { "texto": "Tang Dynasty" }
           ]
         },
         {
