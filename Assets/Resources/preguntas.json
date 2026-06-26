@@ -26,6 +26,50 @@
           ]
         },
         {
+          "enunciado": "Which of these is a vegetable?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Carrots are root vegetables commonly eaten around the world.",
+          "respuestas": [
+            { "texto": "Carrot" },
+            { "texto": "Apple" },
+            { "texto": "Banana" },
+            { "texto": "Grape" }
+          ]
+        },
+        {
+          "enunciado": "Which of these animals can fly?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "Birds are well known for their ability to fly using their wings.",
+          "respuestas": [
+            { "texto": "Fish" },
+            { "texto": "Snake" },
+            { "texto": "Turtle" },
+            { "texto": "Bird" }
+          ]
+        },
+        {
+          "enunciado": "Which season is usually the hottest?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Summer is generally the hottest season of the year.",
+          "respuestas": [
+            { "texto": "Winter" },
+            { "texto": "Summer" },
+            { "texto": "Autumn" },
+            { "texto": "Spring" }
+          ]
+        },
+        {
+          "enunciado": "Which planet do humans live on?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "Earth is the third planet from the Sun and the only known planet with life.",
+          "respuestas": [
+            { "texto": "Mars" },
+            { "texto": "Venus" },
+            { "texto": "Jupiter" },
+            { "texto": "Earth" }
+          ]
+        },
+        {
           "enunciado": "What do we use to cut paper?",
           "respuestaCorrecta": 2,
           "informacionComplementaria": "Scissors are used to cut paper and other materials.",
@@ -468,6 +512,39 @@
             { "texto": "95°C" },
             { "texto": "100°C" },
             { "texto": "110°C" }
+          ]
+        },
+        {
+          "enunciado": "Which color do you get when you mix blue and yellow?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Mixing blue and yellow paint creates green.",
+          "respuestas": [
+            { "texto": "Green" },
+            { "texto": "Purple" },
+            { "texto": "Orange" },
+            { "texto": "Brown" }
+          ]
+        },
+        {
+          "enunciado": "How many days are there in a leap year?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "A leap year has 366 days, one more than a regular year.",
+          "respuestas": [
+            { "texto": "365" },
+            { "texto": "366" },
+            { "texto": "360" },
+            { "texto": "364" }
+          ]
+        },
+        {
+          "enunciado": "Which season is usually the coldest?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "Winter is generally the coldest season of the year.",
+          "respuestas": [
+            { "texto": "Spring" },
+            { "texto": "Summer" },
+            { "texto": "Autumn" },
+            { "texto": "Winter" }
           ]
         },
         {
@@ -1005,6 +1082,160 @@
           ]
         },
         {
+          "enunciado": "What is the national sport of Japan?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "Sumo wrestling is considered Japan's national sport.",
+          "respuestas": [
+            { "texto": "Judo" },
+            { "texto": "Karate" },
+            { "texto": "Baseball" },
+            { "texto": "Sumo" }
+          ]
+        },
+        {
+          "enunciado": "Which vitamin is produced by the human body when exposed to sunlight?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "The human body produces Vitamin D when the skin is exposed to sunlight.",
+          "respuestas": [
+            { "texto": "Vitamin C" },
+            { "texto": "Vitamin D" },
+            { "texto": "Vitamin B12" },
+            { "texto": "Vitamin A" }
+          ]
+        },
+        {
+          "enunciado": "Which country is famous for the historical warriors known as samurai?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "The samurai were the military nobility of feudal Japan.",
+          "respuestas": [
+            { "texto": "China" },
+            { "texto": "Mongolia" },
+            { "texto": "South Korea" },
+            { "texto": "Japan" }
+          ]
+        },
+        {
+          "enunciado": "Which gas is responsible for the bubbles in carbonated drinks?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Carbon dioxide gas creates the bubbles in carbonated beverages.",
+          "respuestas": [
+            { "texto": "Oxygen" },
+            { "texto": "Carbon dioxide" },
+            { "texto": "Nitrogen" },
+            { "texto": "Helium" }
+          ]
+        },
+        {
+          "enunciado": "Which is the only continent without reptiles or snakes in the wild?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Antarctica's climate is too extreme for reptiles and snakes.",
+          "respuestas": [
+            { "texto": "Europe" },
+            { "texto": "Australia" },
+            { "texto": "Antarctica" },
+            { "texto": "South America" }
+          ]
+        },
+        {
+          "enunciado": "Which branch of mathematics deals with shapes, angles, and space?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Geometry studies the properties and relationships of shapes and space.",
+          "respuestas": [
+            { "texto": "Algebra" },
+            { "texto": "Calculus" },
+            { "texto": "Geometry" },
+            { "texto": "Statistics" }
+          ]
+        },
+        {
+          "enunciado": "What is the largest species of bear?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "The polar bear is considered the largest living bear species.",
+          "respuestas": [
+            { "texto": "Grizzly bear" },
+            { "texto": "Polar bear" },
+            { "texto": "Black bear" },
+            { "texto": "Panda bear" }
+          ]
+        },
+        {
+          "enunciado": "Which animal can sleep for up to 22 hours a day?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Koalas spend most of their lives sleeping to conserve energy.",
+          "respuestas": [
+            { "texto": "Sloth" },
+            { "texto": "Koala" },
+            { "texto": "Cat" },
+            { "texto": "Bat" }
+          ]
+        },
+        {
+          "enunciado": "Which instrument is used to measure atmospheric pressure?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "A barometer measures atmospheric pressure and is used in weather forecasting.",
+          "respuestas": [
+            { "texto": "Barometer" },
+            { "texto": "Thermometer" },
+            { "texto": "Hygrometer" },
+            { "texto": "Altimeter" }
+          ]
+        },
+        {
+          "enunciado": "Which planet has the shortest day in the Solar System?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Jupiter rotates once every 9 hours and 56 minutes, giving it the shortest day.",
+          "respuestas": [
+            { "texto": "Jupiter" },
+            { "texto": "Mercury" },
+            { "texto": "Earth" },
+            { "texto": "Mars" }
+          ]
+        },
+        {
+          "enunciado": "What is the term for a word that has the opposite meaning of another word?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "An antonym is a word with the opposite meaning of another word.",
+          "respuestas": [
+            { "texto": "Antonym" },
+            { "texto": "Synonym" },
+            { "texto": "Homonym" },
+            { "texto": "Acronym" }
+          ]
+        },
+        {
+          "enunciado": "What is the largest species of cat in the world?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "The Siberian tiger is the largest living cat species.",
+          "respuestas": [
+            { "texto": "Lion" },
+            { "texto": "Jaguar" },
+            { "texto": "Leopard" },
+            { "texto": "Tiger" }
+          ]
+        },
+        {
+          "enunciado": "What is the maximum score possible with a single dart in standard darts?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "The highest score with one dart is 60, achieved by hitting the triple 20.",
+          "respuestas": [
+            { "texto": "50" },
+            { "texto": "100" },
+            { "texto": "80" },
+            { "texto": "60" }
+          ]
+        },
+        {
+          "enunciado": "What is the name of the scale used to measure earthquake magnitude?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The Richter scale was historically used to measure earthquake magnitude.",
+          "respuestas": [
+            { "texto": "Richter scale" },
+            { "texto": "Kelvin scale" },
+            { "texto": "Mercalli scale" },
+            { "texto": "Beaufort scale" }
+          ]
+        },
+        {
           "enunciado": "Which ancient wonder was built in Olympia, Greece?",
           "respuestaCorrecta": 2,
           "informacionComplementaria": "The Statue of Zeus at Olympia was one of the Seven Wonders of the Ancient World.",
@@ -1359,6 +1590,17 @@
             { "texto": "1988" },
             { "texto": "1991" },
             { "texto": "1979" }
+          ]
+        },
+        {
+          "enunciado": "Which element gives blood its red color?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Iron in hemoglobin is responsible for the red color of blood.",
+          "respuestas": [
+            { "texto": "Copper" },
+            { "texto": "Iron" },
+            { "texto": "Calcium" },
+            { "texto": "Potassium" }
           ]
         },
         {
@@ -1796,6 +2038,17 @@
           ]
         },
         {
+          "enunciado": "Which scientist first proposed the existence of antimatter?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Paul Dirac predicted the existence of antimatter in 1928 through his relativistic equation for the electron.",
+          "respuestas": [
+            { "texto": "Paul Dirac" },
+            { "texto": "Werner Heisenberg" },
+            { "texto": "Erwin Schrödinger" },
+            { "texto": "Max Planck" }
+          ]
+        },
+        {
           "enunciado": "Which scientist discovered the neutron in 1932?",
           "respuestaCorrecta": 2,
           "informacionComplementaria": "James Chadwick discovered the neutron in 1932, earning the Nobel Prize in Physics.",
@@ -1804,6 +2057,17 @@
             { "texto": "Niels Bohr" },
             { "texto": "James Chadwick" },
             { "texto": "Enrico Fermi" }
+          ]
+        },
+        {
+          "enunciado": "Which scholar is credited with compiling the first comprehensive dictionary of the English language in 1755?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Samuel Johnson published 'A Dictionary of the English Language' in 1755, a landmark in English lexicography.",
+          "respuestas": [
+            { "texto": "Noah Webster" },
+            { "texto": "John Wycliffe" },
+            { "texto": "Samuel Johnson" },
+            { "texto": "William Caxton" }
           ]
         },
         {
@@ -1818,14 +2082,47 @@
           ]
         },
         {
-          "enunciado": "Who invented the first electric guitar?",
+          "enunciado": "Which scientist developed chaos theory?",
           "respuestaCorrecta": 1,
-          "informacionComplementaria": "George Beauchamp invented the first electric guitar in 1931.",
+          "informacionComplementaria": "Edward Lorenz pioneered chaos theory in the 1960s.",
           "respuestas": [
-            { "texto": "Les Paul" },
-            { "texto": "George Beauchamp" },
-            { "texto": "Leo Fender" },
-            { "texto": "Adolph Rickenbacker" }
+            { "texto": "Henri Poincaré" },
+            { "texto": "Edward Lorenz" },
+            { "texto": "Richard Feynman" },
+            { "texto": "James Clerk Maxwell" }
+          ]
+        },
+        {
+          "enunciado": "Who developed the protocol TCP/IP?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Vint Cerf and Robert Kahn developed the TCP/IP protocol in 1974, forming the foundation of modern Internet communication.",
+          "respuestas": [
+            { "texto": "Tim Berners-Lee" },
+            { "texto": "Vint Cerf and Robert Kahn" },
+            { "texto": "Linus Torvalds" },
+            { "texto": "Dennis Ritchie" }
+          ]
+        },
+        {
+          "enunciado": "Which scientist discovered the nucleus of the atom?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Ernest Rutherford discovered the atomic nucleus in 1911.",
+          "respuestas": [
+            { "texto": "J.J. Thomson" },
+            { "texto": "Ernest Rutherford" },
+            { "texto": "Niels Bohr" },
+            { "texto": "James Chadwick" }
+          ]
+        },
+        {
+          "enunciado": "Which mathematician introduced the concept of fractals?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Benoît Mandelbrot developed fractal geometry in the 1970s.",
+          "respuestas": [
+            { "texto": "Leonhard Euler" },
+            { "texto": "Carl Gauss" },
+            { "texto": "Benoît Mandelbrot" },
+            { "texto": "Henri Poincaré" }
           ]
         },
         {
@@ -1870,17 +2167,6 @@
             { "texto": "Brazil" },
             { "texto": "Italy" },
             { "texto": "Argentina" }
-          ]
-        },
-        {
-          "enunciado": "Which scientist discovered pulsars?",
-          "respuestaCorrecta": 1,
-          "informacionComplementaria": "Jocelyn Bell Burnell discovered the first pulsar in 1967.",
-          "respuestas": [
-            { "texto": "Stephen Hawking" },
-            { "texto": "Jocelyn Bell Burnell" },
-            { "texto": "Carl Sagan" },
-            { "texto": "Edwin Hubble" }
           ]
         },
         {
@@ -1947,6 +2233,28 @@
             { "texto": "Qing Dynasty" },
             { "texto": "Han Dynasty" },
             { "texto": "Tang Dynasty" }
+          ]
+        },
+        {
+          "enunciado": "Which mathematician introduced the concept of imaginary numbers?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Gerolamo Cardano first discussed imaginary numbers in the 16th century.",
+          "respuestas": [
+            { "texto": "Leonhard Euler" },
+            { "texto": "René Descartes" },
+            { "texto": "Gerolamo Cardano" },
+            { "texto": "Carl Gauss" }
+          ]
+        },
+        {
+          "enunciado": "Which video game was the first to feature an Easter egg?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "The game 'Adventure' (1980) for Atari 2600 contained the first hidden Easter egg.",
+          "respuestas": [
+            { "texto": "Pong" },
+            { "texto": "Adventure" },
+            { "texto": "Space Invaders" },
+            { "texto": "Pac-Man" }
           ]
         },
         {
