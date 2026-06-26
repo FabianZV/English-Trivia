@@ -26,6 +26,61 @@
           ]
         },
         {
+          "enunciado": "What do we use to cut paper?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Scissors are used to cut paper and other materials.",
+          "respuestas": [
+            { "texto": "Fork" },
+            { "texto": "Scissors" },
+            { "texto": "Spoon" },
+            { "texto": "Cup" }
+          ]
+        },
+        {
+          "enunciado": "What do we call the star that gives light to Earth?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The Sun is the star at the center of our solar system and provides light and heat to Earth.",
+          "respuestas": [
+            { "texto": "Moon" },
+            { "texto": "Sun" },
+            { "texto": "Mars" },
+            { "texto": "Cloud" }
+          ]
+        },
+        {
+          "enunciado": "What do you usually use to write on paper?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "A pen is commonly used for writing on paper in school and work.",
+          "respuestas": [
+            { "texto": "Spoon" },
+            { "texto": "Pen" },
+            { "texto": "Fork" },
+            { "texto": "Knife" }
+          ]
+        },
+        {
+          "enunciado": "What part of a plant is typically green and helps it grow toward light?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The leaf is green because it contains chlorophyll, which helps plants make food using sunlight.",
+          "respuestas": [
+            { "texto": "Root" },
+            { "texto": "Leaf" },
+            { "texto": "Seed" },
+            { "texto": "Rock" }
+          ]
+        },
+        {
+          "enunciado": "What color do you get when you mix red and white?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Mixing red and white paint creates pink.",
+          "respuestas": [
+            { "texto": "Pink" },
+            { "texto": "Purple" },
+            { "texto": "Orange" },
+            { "texto": "Brown" }
+          ]
+        },
+        {
           "enunciado": "Which fruit has its seeds on the outside?",
           "respuestaCorrecta": 2,
           "informacionComplementaria": "A strawberry has around 200 seeds on its exterior.",
@@ -435,6 +490,72 @@
             { "texto": "Portugal" },
             { "texto": "Spain" },
             { "texto": "France" }
+          ]
+        },
+        {
+          "enunciado": "What do you call the white part of an egg?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The white part of an egg is called egg white. In scientific terms, it is also known as albumen. It surrounds and protects the yolk.",
+          "respuestas": [
+            { "texto": "Egg white" },
+            { "texto": "Shell" },
+            { "texto": "Yolk" },
+            { "texto": "Eggshell membrane" }
+          ]
+        },
+        {
+          "enunciado": "What do we call water falling from clouds?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Rain is water that falls from clouds in drops.",
+          "respuestas": [
+            { "texto": "Snow" },
+            { "texto": "Wind" },
+            { "texto": "Rain" },
+            { "texto": "Fog" }
+          ]
+        },
+        {
+          "enunciado": "What do we call the animal that gives us wool?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Sheep provide wool, which is used to make clothes.",
+          "respuestas": [
+            { "texto": "Cow" },
+            { "texto": "Sheep" },
+            { "texto": "Pig" },
+            { "texto": "Horse" }
+          ]
+        },
+        {
+          "enunciado": "What do you call the place where you buy bread?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "A bakery is where bread and pastries are sold.",
+          "respuestas": [
+            { "texto": "Pharmacy" },
+            { "texto": "Bank" },
+            { "texto": "Garage" },
+            { "texto": "Bakery" }
+          ]
+        },
+        {
+          "enunciado": "What do we call the season when flowers bloom?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Spring is the season when plants start to grow and flowers bloom.",
+          "respuestas": [
+            { "texto": "Winter" },
+            { "texto": "Spring" },
+            { "texto": "Autumn" },
+            { "texto": "Summer" }
+          ]
+        },
+        {
+          "enunciado": "What do we call the time when the sun goes down?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Sunset is when the sun disappears below the horizon.",
+          "respuestas": [
+            { "texto": "Morning" },
+            { "texto": "Sunset" },
+            { "texto": "Noon" },
+            { "texto": "Midnight" }
           ]
         },
         {
@@ -895,6 +1016,83 @@
           ]
         },
         {
+          "enunciado": "What is the process by which plants make their own food?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Photosynthesis is the process by which plants convert sunlight into energy.",
+          "respuestas": [
+            { "texto": "Respiration" },
+            { "texto": "Fermentation" },
+            { "texto": "Photosynthesis" },
+            { "texto": "Digestion" }
+          ]
+        },
+        {
+          "enunciado": "Which is the longest river in the world?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The Nile is traditionally considered the longest river in the world.",
+          "respuestas": [
+            { "texto": "Nile" },
+            { "texto": "Amazon" },
+            { "texto": "Yangtze" },
+            { "texto": "Mississippi" }
+          ]
+        },
+        {
+          "enunciado": "Which element is needed for the production of nuclear energy and weapons?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Uranium is a key element used in nuclear reactors and weapons.",
+          "respuestas": [
+            { "texto": "Gold" },
+            { "texto": "Uranium" },
+            { "texto": "Iron" },
+            { "texto": "Copper" }
+          ]
+        },
+        {
+          "enunciado": "Who is known as the father of computers?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Charles Babbage is considered the father of the computer for his concept of the analytical engine.",
+          "respuestas": [
+            { "texto": "Alan Turing" },
+            { "texto": "Bill Gates" },
+            { "texto": "Charles Babbage" },
+            { "texto": "Steve Jobs" }
+          ]
+        },
+        {
+          "enunciado": "What is the hardest natural substance on Earth?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Diamond is the hardest naturally occurring material.",
+          "respuestas": [
+            { "texto": "Diamond" },
+            { "texto": "Gold" },
+            { "texto": "Iron" },
+            { "texto": "Quartz" }
+          ]
+        },
+        {
+          "enunciado": "What is the main gas found in Earth's atmosphere?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "Nitrogen makes up about 78% of Earth's atmosphere.",
+          "respuestas": [
+            { "texto": "Oxygen" },
+            { "texto": "Carbon dioxide" },
+            { "texto": "Nitrogen" },
+            { "texto": "Hydrogen" }
+          ]
+        },
+        {
+          "enunciado": "What does DNA stand for?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "DNA stands for Deoxyribonucleic Acid, which carries genetic information.",
+          "respuestas": [
+            { "texto": "Deoxyribonucleic Acid" },
+            { "texto": "Dynamic Nuclear Action" },
+            { "texto": "Digital Network Area" },
+            { "texto": "Data Natural Array" }
+          ]
+        },
+        {
           "enunciado": "What is the value of √81?",
           "respuestaCorrecta": 1,
           "informacionComplementaria": "√81 = 9.",
@@ -1093,6 +1291,17 @@
           ]
         },
         {
+          "enunciado": "Which treaty ended World War I?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "The Treaty of Versailles was signed in 1919, ending World War I.",
+          "respuestas": [
+            { "texto": "Treaty of Versailles" },
+            { "texto": "Treaty of Paris" },
+            { "texto": "Treaty of Brest-Litovsk" },
+            { "texto": "Treaty of Ghent" }
+          ]
+        },
+        {
           "enunciado": "What is the largest organ inside the human body?",
           "respuestaCorrecta": 0,
           "informacionComplementaria": "The liver is the largest internal organ in the human body.",
@@ -1139,6 +1348,17 @@
             { "texto": "1988" },
             { "texto": "1991" },
             { "texto": "1979" }
+          ]
+        },
+        {
+          "enunciado": "Which continent has the most countries?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Africa has the largest number of countries of any continent, with 54 countries recognized internationally.",
+          "respuestas": [
+            { "texto": "Africa" },
+            { "texto": "Europe" },
+            { "texto": "Asia" },
+            { "texto": "South America" }
           ]
         },
         {
@@ -1461,6 +1681,83 @@
           ]
         },
         {
+          "enunciado": "Which ancient library was destroyed, leading to the loss of countless manuscripts?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "The Library of Alexandria in Egypt was destroyed, causing the loss of invaluable ancient knowledge.",
+          "respuestas": [
+            { "texto": "Library of Pergamon" },
+            { "texto": "Library of Alexandria" },
+            { "texto": "Library of Nineveh" },
+            { "texto": "Library of Constantinople" }
+          ]
+        },
+        {
+          "enunciado": "Which ancient civilization developed the concept of zero as a number?",
+          "respuestaCorrecta": 2,
+          "informacionComplementaria": "The Maya civilization independently developed the concept of zero in their numerical system.",
+          "respuestas": [
+            { "texto": "Greek" },
+            { "texto": "Egyptian" },
+            { "texto": "Maya" },
+            { "texto": "Chinese" }
+          ]
+        },
+        {
+          "enunciado": "Which scientist developed the periodic table of elements?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Dmitri Mendeleev created the first periodic table in 1869.",
+          "respuestas": [
+            { "texto": "Dmitri Mendeleev" },
+            { "texto": "Marie Curie" },
+            { "texto": "Linus Pauling" },
+            { "texto": "Henry Moseley" }
+          ]
+        },
+        {
+          "enunciado": "Which video game console was the first to use CDs instead of cartridges?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Sony’s PlayStation (1994) was the first major console to use CDs.",
+          "respuestas": [
+            { "texto": "Sega Genesis" },
+            { "texto": "PlayStation" },
+            { "texto": "Nintendo 64" },
+            { "texto": "Dreamcast" }
+          ]
+        },
+        {
+          "enunciado": "Which video game was the first to sell over 100 million copies?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "Minecraft became the first video game to surpass 100 million copies sold.",
+          "respuestas": [
+            { "texto": "Tetris" },
+            { "texto": "Grand Theft Auto V" },
+            { "texto": "Super Mario Bros." },
+            { "texto": "Minecraft" }
+          ]
+        },
+        {
+          "enunciado": "Which movie was the first to gross over $1 billion worldwide?",
+          "respuestaCorrecta": 3,
+          "informacionComplementaria": "Titanic (1997) was the first film to gross over $1 billion worldwide.",
+          "respuestas": [
+            { "texto": "Jurassic Park" },
+            { "texto": "Star Wars" },
+            { "texto": "The Lion King" },
+            { "texto": "Titanic" }
+          ]
+        },
+        {
+          "enunciado": "Which athlete was the first to win the Ballon d'Or as a goalkeeper?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Lev Yashin won the Ballon d'Or in 1963, the only goalkeeper to do so.",
+          "respuestas": [
+            { "texto": "Lev Yashin" },
+            { "texto": "Dino Zoff" },
+            { "texto": "Manuel Neuer" },
+            { "texto": "Oliver Kahn" }
+          ]
+        },
+        {
           "enunciado": "Which planet has the shortest year?",
           "respuestaCorrecta": 3,
           "informacionComplementaria": "Mercury completes an orbit around the Sun in about 88 Earth days.",
@@ -1485,6 +1782,28 @@
             { "texto": "My First Video" },
             { "texto": "Me at the Zoo" },
             { "texto": "At the Zoo" }
+          ]
+        },
+        {
+          "enunciado": "Which element was first artificially created in a laboratory?",
+          "respuestaCorrecta": 1,
+          "informacionComplementaria": "Technetium was the first artificially produced element, discovered in 1937.",
+          "respuestas": [
+            { "texto": "Plutonium" },
+            { "texto": "Technetium" },
+            { "texto": "Neptunium" },
+            { "texto": "Curium" }
+          ]
+        },
+        {
+          "enunciado": "Which country hosted the first FIFA World Cup in 1930?",
+          "respuestaCorrecta": 0,
+          "informacionComplementaria": "Uruguay hosted and won the first FIFA World Cup in 1930.",
+          "respuestas": [
+            { "texto": "Uruguay" },
+            { "texto": "Brazil" },
+            { "texto": "Italy" },
+            { "texto": "Argentina" }
           ]
         },
         {
